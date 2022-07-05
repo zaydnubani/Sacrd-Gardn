@@ -25,7 +25,7 @@ const landing = () => {
         'B26.png'
     ];
 
-    // const landing_body = document.getElementById('landing_body');
+    const landing_body = document.getElementById('landing_body');
     // const body_background_random = Math.floor(Math.random() * backgrounds_body.length);
 
     // landing_body.style = `background-image: url('/images/backgrounds/body/${backgrounds_body[body_background_random]}');`;
