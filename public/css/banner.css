@@ -1,0 +1,64 @@
+@media  screen and (min-width: 360px) {
+    #banner {
+        top: -15px;
+    }
+    #b_message {
+        font-size: x-small;
+    }
+}
+@media  screen and (min-width: 576px) {
+    #banner {
+        top: -7px;
+    }
+    #b_message {
+        font-size: small;
+    }
+}
+@media  screen and (min-width: 768px) {
+    #banner {
+        top: -5px;
+    }
+    #b_message {
+        font-size: small;
+    }
+}
+@media  screen and (min-width: 992px) {
+    #banner {
+        top: -7px;
+    }
+    #b_message {
+        font-size: small;
+    }
+}
+@media  screen and (min-width: 1240px) {
+    #banner {
+        top: -5px;
+    }
+    #b_message {
+        font-size: medium;
+    }
+}
+@media  screen and (min-width: 1880px) {
+    #banner {
+        top: 0px;
+    }
+    #b_message {
+        font-size: 4rem;
+    }
+}
+
+
+#banner {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 90%;
+    overflow: hidden;
+    height: fit-content;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #C73E7C;
+}

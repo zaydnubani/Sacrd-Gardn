@@ -1,0 +1,155 @@
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) { 
+    nav a img {
+        margin: 5px;
+    }
+    nav a img.logo {
+        max-width: 60px;
+        height: auto;
+    }
+    nav a img.title {
+        max-width: 170px;
+        height: auto;
+    }
+    nav button {
+        margin: 5px;
+        font-size: 2.2rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {  
+    nav a img {
+        margin: 5px;
+    }
+    nav a img.logo {
+        max-width: 70px;
+        height: auto;
+    }
+    nav a img.title {
+        max-width: 190px;
+        height: auto;
+    }
+    nav button {
+        margin: 5px;
+        font-size: 2.5rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {  
+    nav a img {
+        margin: 5px;
+    }
+    nav a img.logo {
+        max-width: 80px;
+        height: auto;
+    }
+    nav a img.title {
+        max-width: 195px;
+        height: auto;
+    }
+    nav button {
+        margin: 5px;
+        font-size: 2.5rem;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {  
+    nav a img {
+        margin: 5px;
+    }
+    nav a img.logo {
+        max-width: 90px;
+        height: auto;
+    }
+    nav a img.title {
+        max-width: 200px;
+        height: auto;
+    }
+    nav button {
+        margin: 5px;
+        font-size: 3rem;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {  
+    nav a span {
+        margin: 5px;
+        font-size: 6rem;
+    }
+    nav a img.logo {
+        max-width: 10%;
+        height: auto;
+    }
+    nav a img.title {
+        max-width: 225px;
+        height: auto;
+    }
+    nav button {
+        margin: 5px;
+        font-size: 4rem;
+    }
+}
+
+nav {
+    /* sets element to flex layout to set content positions */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* sets width and height */
+    width: 90%;
+    height: fit-content;
+    padding: 1%;
+    border-radius: 10px;
+
+    /* centers the element */
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+
+nav a {
+    /* removes hyperlink underlining */
+    text-decoration: none;
+
+    /* sets inner elements to flex layout for positioning */
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+nav a span {
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    /* font-family: neon-stream, sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+    color: #C73E7C;
+}
+
+/* nav a, nav button {
+
+} */
+
+nav button {
+    /* button styling */
+    color: white;
+    background-color: white; 
+    border: solid 5px white; 
+    border-radius: 10px;
+}
+
+nav button:hover {
+    /* makes the button smaller and color lighter on hover over */
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+
+/* team, partners, minting: before july 6th signup after july 6th w/button to external link  */

@@ -1,0 +1,142 @@
+/* The side navigation menu */
+#mySidenav {
+    /* Full-height */
+    height: 94%;
+
+    /* 0 width - change this with JavaScript */
+    width: 0; 
+    
+    /* Stay in place */
+    position: fixed; 
+    
+    /* Stay on top */
+    z-index: 1; 
+
+    /* spacing from top */
+    top: 1.5%;
+
+    /* set on the right side */
+    right: 0;
+    
+    /* set background color */
+    background-image: url('/images/backgrounds/body/B6.png');
+
+    /* Disable horizontal scroll */
+    overflow-x: hidden; 
+
+    /* Place content 60px from the top */
+    padding-top: 5px;
+
+    /* 0.5 second transition effect to slide in the sidenav */
+    transition: 0.5s;
+
+    /* sets border and rounds border edges */
+    /* border: solid 5px rgb(0 132 133); */
+    border-radius: 10px;
+
+    /* sets opacity so resting nav isnt visible*/
+    opacity: 0;
+
+    /* sets layout for items on offcanvas menu */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#sideNav {
+    height: 100%;
+
+    background-image: url('/images/frames/frame2.png');
+    background-size: 320px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* sizing for offcanvas title */
+#sideNav img {
+    height: auto;
+    width: 70%;
+}
+
+/* Position and style the close button (top right corner) */
+#sideNav #closebtn {
+    position: absolute;
+    text-decoration: none;
+    top: -5px;
+    right: -15px;
+    width: 50px;
+    font-size: 45px;
+    color: #C73E7C;
+}
+
+/* sets layout for nav links */
+#navLinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    /* height: 80%; */
+}
+
+/* The navigation menu links */
+#navLinks .navLink {
+    flex-grow: 2;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin: 3px;
+    text-decoration: none;
+    font-size: 2.5rem;
+    transition: 0.3s;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+
+    /* font style */
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.navLink:hover {
+    transform: scale(0.9);
+    opacity: 0.9;
+}
+
+/* social media icons formatting */
+#icons {
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #C73E7C;
+}
+
+#icons a {
+    text-decoration: none;
+}
+
+#icons img {
+    width: 15%;
+    margin: 10px;
+}
+
+#icons img:hover {
+    transform: scale(0.9);
+}
+
+

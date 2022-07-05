@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {{!-- favicon for tab icon here: --}}
+    <link rel="icon" href="/images/">
+    
+    {{!-- imported css files here: --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://use.typekit.net/ban0udj.css">    
+    {{!-- <link rel="stylesheet" href="https://use.typekit.net/ban0udj.css"> --}}
+
+    {{!-- personal css files here: --}}
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/offcanvas.css">
+    <link rel="stylesheet" href="/css/landing.css">
+    <link rel="stylesheet" href="/css/banner.css">
+
+
+    {{!-- link to imported fonts here: --}}
+   
+    {{!-- link to social media icons here: --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    {{!-- page title here: --}}
+    <title></title>
+</head>
+
+<main id="main">
+
+    {{!-- off-canvas nav menu --}}
+    <div id="mySidenav">
+        <div id="sideNav">
+            <img src="\images\logos\sacrd_gardn_neon.png" alt="logo">
+            <a href="javascript:void(0)" id="closebtn">&times;</a>
+            <div id="navLinks">
+                <a href="/roadmap" class="navLink" style="background-color: rgb(90, 29, 87);">RoadMap</a>
+                <a href="/team" class="navLink" style="background-color: rgb(255, 90, 0);">Team</a>
+                <a href="/faq" class="navLink" style="background-color: rgb(225, 0, 68);">Faq</a>
+                <a href="/collections" class="navLink" style="background-color: rgb(167, 0, 76);">Collections</a>
+                <a href="/virtualgarden" class="navLink" style="background-color: rgb(240, 206, 65);">Virtual Garden</a>
+            </div>
+            <div id="icons">
+               <a href='https://discord.gg/jbv7raNcu2'>
+                    <img src="\images\logos\discord.png">
+                </a>
+                <a href='https://www.instagram.com/sacrdgardn/'>
+                    <img src="\images\logos\instagram.png">
+                </a>
+                <a href='https://opensea.io/SACRDGARDN'>
+                    <img src="\images\logos\OpenSea.png">
+                </a>
+                <a href='https://twitter.com/sacrdgardn'>
+                    <img src="\images\logos\twitter.png">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    {{!-- nav --}}
+    <nav id="nav">
+        <a href="/" alt="lading">
+            <span>△FLORA SACR≡D GARD≡N</span>
+        </a> 
+        <button id='openbtn'>
+            <span>&#9776;</span>
+        </button>
+    </nav>
+
+
+    {{{body}}}
+
+    {{!-- social media links & icons --}}
+    <div class="social">
+        <a href='https://discord.gg/jbv7raNcu2'>
+            <img src="\images\logos\discord.png">
+        </a>
+        <a href='https://www.instagram.com/sacrdgardn/'>
+            <img src="\images\logos\instagram.png">
+        </a>
+        <a href='https://opensea.io/SACRDGARDN'>
+            <img src="\images\logos\OpenSea.png">
+        </a>
+        <a href='https://twitter.com/sacrdgardn'>
+            <img src="\images\logos\twitter.png">
+        </a>
+    </div>
+
+    <span class="social">© GARDN LLC</span>
+
+    {{!-- imported scripts here: --}}
+
+    {{!-- personal js scripts here: --}}
+    <script src="/js/offcanvas.js" alt="offcanvas"></script>
+    <script src="/js/main.js" alt="offcanvas"></script>
+
+</main>
+</html>
