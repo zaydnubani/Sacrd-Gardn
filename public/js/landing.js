@@ -25,10 +25,10 @@ const landing = () => {
         'B26.png'
     ];
 
-    const landing_body = document.getElementById('landing_body');
-    const body_background_random = Math.floor(Math.random() * backgrounds_body.length);
+    // const landing_body = document.getElementById('landing_body');
+    // const body_background_random = Math.floor(Math.random() * backgrounds_body.length);
 
-    landing_body.style = `background-image: url('/images/backgrounds/body/${backgrounds_body[body_background_random]}');`;
+    // landing_body.style = `background-image: url('/images/backgrounds/body/${backgrounds_body[body_background_random]}');`;
 
     // id='gallery' items on landing
     
@@ -75,9 +75,9 @@ const landing = () => {
         ];
 
         const frame_random = Math.floor(Math.random() * frames.length);
-        const background_random = Math.floor(Math.random() * backgrounds_card.length);
+        // const background_random = Math.floor(Math.random() * backgrounds_card.length);
 
-        frame.style = `background-image: url('/images/backgrounds/cards/${backgrounds_card[background_random]}');`;
+        frame.style = `background-color: white;`;
 
         div.style = `order: ${Math.floor(Math.random() * plants.length)}; ${frames[frame_random]}`;
     
