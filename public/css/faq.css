@@ -1,0 +1,224 @@
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 360px) {
+    #faqs {
+        height: 375px;
+    }
+
+    .question span{
+        font-size: 1.75rem;
+    }
+
+    .answer p{
+        font-size: 1.75rem;
+    }
+
+    .expand, .contract {
+        font-size: 3rem;
+    }
+} 
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+    #faqs {
+        height: 400px;
+    }
+
+    .question span{
+        font-size: 2.5rem;
+    }
+
+    .answer p{
+        font-size: 2.5rem;
+    }
+
+    .expand, .contract {
+        font-size: 4rem;
+    }
+} 
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) { 
+    #faqs {
+        height: 450px;
+    }
+
+    .question span{
+        font-size: 3rem;
+    }
+
+    .answer p{
+        font-size: 3rem;
+    }
+
+    .expand, .contract {
+        font-size: 4rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) { 
+    #faqs {
+        height: 485px;
+    }
+
+    .question span{
+        font-size: 3.25rem;
+    }
+
+    .answer p{
+        font-size: 3.25rem;
+    }
+
+    .expand, .contract {
+        font-size: 4rem;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+    #faqs {
+        height: 475px;
+    }
+
+    .question span{
+        font-size: 3.5rem;
+    }
+
+    .answer p{
+        font-size: 3.5rem;
+    }
+
+    .expand, .contract {
+        font-size: 4rem;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) { 
+    #faqs {
+        height: 525px;
+    }
+
+    .question span{
+        font-size: 4rem;
+    }
+
+    .answer p{
+        font-size: 4rem;
+    }
+
+    .expand, .contract {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    #faqs {
+        height: 525px;
+    }
+
+    .question span{
+        font-size: 4.5rem;
+    }
+
+    .answer p{
+        font-size: 4.5rem;
+    }
+
+    .expand, .contract {
+        font-size: 4rem;
+    }
+} 
+
+#faqs {
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    padding: 1%;
+
+    overflow-y: scroll;
+}
+
+.faq {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    
+    /* height: 30%; */
+    width: 100%;
+}
+
+.question, .answer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.question {
+    background-color: white;
+    padding: 2%;
+}
+
+.answer {
+    position: absolute;
+    right: 0px;
+
+    width: 10%;
+    height: 90%;
+    z-index: 1;
+
+    transition: 2s;
+    background-color: #C73E7C;
+    overflow: hidden;
+}
+
+.question span, .answer p{
+    border-radius: 10px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #C73E7C;
+    margin: 0px;
+}
+
+.question span{
+    color: #C73E7C;
+
+}
+
+.answer p{
+    text-align: start;
+    padding: 1%;
+    height: 80%;
+    overflow-y: scroll;
+    color: white;
+}
+
+.expand, .contract {
+    color: white;
+    background-color: #C73E7C;
+    font-size: 4rem;
+    border: none;
+}
+
+.expand{
+    color: white;
+    background-color: #C73E7C;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.contract{
+    color: #C73E7C;
+    background-color: white;
+    height: 100%;
+}
+
