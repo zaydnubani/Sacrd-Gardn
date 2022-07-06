@@ -1,52 +1,44 @@
-@media  screen and (min-width: 360px) {
-    #banner {
-        top: -15px;
-    }
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 360px) {
     #b_message {
-        font-size: x-small;
+        font-size: 1.25rem;
+    }
+} 
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+    #b_message {
+        font-size: 1.5rem;
+    }
+} 
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) { 
+    #b_message {
+        font-size: 1.5rem;
     }
 }
-@media  screen and (min-width: 576px) {
-    #banner {
-        top: -7px;
-    }
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) { 
     #b_message {
-        font-size: small;
+        font-size: 2rem;
     }
 }
-@media  screen and (min-width: 768px) {
-    #banner {
-        top: -5px;
-    }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
     #b_message {
-        font-size: small;
+        font-size: 3rem;
     }
 }
-@media  screen and (min-width: 992px) {
-    #banner {
-        top: -7px;
-    }
-    #b_message {
-        font-size: small;
-    }
-}
-@media  screen and (min-width: 1240px) {
-    #banner {
-        top: -5px;
-    }
-    #b_message {
-        font-size: medium;
-    }
-}
-@media  screen and (min-width: 1880px) {
-    #banner {
-        top: 0px;
-    }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) { 
     #b_message {
         font-size: 4rem;
     }
 }
-
 
 #banner {
     position: relative;

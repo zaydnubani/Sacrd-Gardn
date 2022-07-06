@@ -1,3 +1,58 @@
+/* Smaller devices  */
+@media screen and (min-height: 350px) {  
+    #sideNav img {
+        width: 50%;
+   }
+
+   #closebtn {
+        font-size: 45px;
+   }
+
+   .navLink {
+        font-size: 1.75rem;
+   }
+   #icons img {
+        width: 10%;
+   }
+}
+
+/* Medium Devices */
+@media screen and (min-height: 550px) {  
+    #sideNav img {
+        width: 60%;
+   }
+
+   #closebtn {
+        font-size: 45px;
+   }
+
+   .navLink {
+        font-size: 2rem;
+   }
+   #icons img {
+        width: 12%;
+   }
+}
+
+/* large devices */
+@media screen and (min-height: 750px) {  
+   #sideNav img {
+        width: 70%;
+   }
+
+   #closebtn {
+        font-size: 45px;
+   }
+
+   .navLink {
+        font-size: 2.5rem;
+   }
+   #icons img {
+        width: 15%;
+   }
+
+}
+
 /* The side navigation menu */
 #mySidenav {
     /* Full-height */
@@ -62,17 +117,15 @@
 /* sizing for offcanvas title */
 #sideNav img {
     height: auto;
-    width: 70%;
 }
 
 /* Position and style the close button (top right corner) */
-#sideNav #closebtn {
+#closebtn {
     position: absolute;
     text-decoration: none;
     top: -5px;
     right: -15px;
     width: 50px;
-    font-size: 45px;
     color: #C73E7C;
 }
 
@@ -84,7 +137,6 @@
     justify-content: flex-start;
     align-items: center;
     padding: 10px;
-    /* height: 80%; */
 }
 
 /* The navigation menu links */
@@ -94,7 +146,6 @@
     padding-bottom: 6%;
     margin: 3px;
     text-decoration: none;
-    font-size: 2.5rem;
     transition: 0.3s;
     border-radius: 10px;
     width: fit-content;
@@ -131,7 +182,6 @@
 }
 
 #icons img {
-    width: 15%;
     margin: 10px;
 }
 

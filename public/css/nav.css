@@ -1,15 +1,20 @@
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) { 
-    nav a img {
+@media screen and (min-width: 360px) { 
+    nav a span {
         margin: 5px;
+        font-size: 2rem;
     }
-    nav a img.logo {
-        max-width: 60px;
-        height: auto;
+    nav button {
+        margin: 5px;
+        font-size: 2rem;
     }
-    nav a img.title {
-        max-width: 170px;
-        height: auto;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) { 
+    nav a span {
+        margin: 5px;
+        font-size: 2.5rem;
     }
     nav button {
         margin: 5px;
@@ -19,16 +24,9 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {  
-    nav a img {
+    nav a span {
         margin: 5px;
-    }
-    nav a img.logo {
-        max-width: 70px;
-        height: auto;
-    }
-    nav a img.title {
-        max-width: 190px;
-        height: auto;
+        font-size: 4rem;
     }
     nav button {
         margin: 5px;
@@ -38,35 +36,21 @@
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {  
-    nav a img {
+    nav a span {
         margin: 5px;
-    }
-    nav a img.logo {
-        max-width: 80px;
-        height: auto;
-    }
-    nav a img.title {
-        max-width: 195px;
-        height: auto;
+        font-size: 5rem;
     }
     nav button {
         margin: 5px;
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {  
-    nav a img {
+    nav a span {
         margin: 5px;
-    }
-    nav a img.logo {
-        max-width: 90px;
-        height: auto;
-    }
-    nav a img.title {
-        max-width: 200px;
-        height: auto;
+        font-size: 5rem;
     }
     nav button {
         margin: 5px;
@@ -79,14 +63,6 @@
     nav a span {
         margin: 5px;
         font-size: 6rem;
-    }
-    nav a img.logo {
-        max-width: 10%;
-        height: auto;
-    }
-    nav a img.title {
-        max-width: 225px;
-        height: auto;
     }
     nav button {
         margin: 5px;
@@ -128,9 +104,6 @@ nav a span {
     font-family: futura-pt, sans-serif;
     font-weight: 700;
     font-style: italic;
-    /* font-family: neon-stream, sans-serif;
-    font-weight: 400;
-    font-style: normal; */
     color: #C73E7C;
 }
 

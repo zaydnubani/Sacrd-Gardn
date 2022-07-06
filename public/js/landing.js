@@ -6,7 +6,9 @@ const landing = () => {
         'AngelsTrumpet.jpg', 'Ayahuasca.jpg', 'Blue_Lotus.jpg', 'Cannabis_female.jpg', 'Cannabis_male.jpg', 'Chacruna.jpg', 'DevlisTrumpet.jpg', 'Ice_Plant_flower.jpg', 'IcePlant.jpg', 'Kanna.jpg', 'Kratom.jpg', 'Morning_Glory.jpg', 'Nicotiana.jpg', 'Passion_Flower.jpg', 'peyote_no_flower.jpg', 'Peyote.jpg', 'Poppy.jpg','Salvia.jpg', 'SanPedro_Crestata.jpg'
     ];
 
-    const gifs = ['frame1.gif', 'frame2.gif'];
+    // landing frame
+
+    const gifs = ['3.gif','4.gif', '5.gif'];
 
     const landing_frame = document.getElementById('landing_frame');
     const frame_background_random = Math.floor(Math.random() * gifs.length);
@@ -26,9 +28,9 @@ const landing = () => {
     ];
 
     const landing_body = document.getElementById('landing_body');
-    // const body_background_random = Math.floor(Math.random() * backgrounds_body.length);
+    const body_background_random = Math.floor(Math.random() * backgrounds_body.length);
 
-    // landing_body.style = `background-image: url('/images/backgrounds/body/${backgrounds_body[body_background_random]}');`;
+    landing_body.style = `background-image: url('/images/backgrounds/body/${backgrounds_body[body_background_random]}');`;
 
     // id='gallery' items on landing
     
@@ -77,7 +79,7 @@ const landing = () => {
         const frame_random = Math.floor(Math.random() * frames.length);
         // const background_random = Math.floor(Math.random() * backgrounds_card.length);
 
-        frame.style = `background-color: white;`;
+        frame.style = `background-color: none;`;
 
         div.style = `order: ${Math.floor(Math.random() * plants.length)}; ${frames[frame_random]}`;
     
