@@ -16,6 +16,10 @@
     .twitter img {
         max-width: 60%;
     }
+
+    .close {
+        font-size: 1.5rem;
+    }
 } 
 
 /* Small devices (landscape phones, 576px and up) */
@@ -193,7 +197,6 @@
     height: auto;
 
     border-radius: 10px;
-
 }
 
 /* bio & twitter tab */
@@ -212,8 +215,6 @@
     width: 10%;
 
     text-align: center;
-
-
 }
 
 .bio {
@@ -228,7 +229,6 @@
 
     background-color: rgb(240, 206, 65);
     background-image: url('/images/backgrounds/body/B21.png');
-
 }
 
 .bio p {
@@ -237,6 +237,8 @@
 }
 
 .close {
+    display: flex;
+    align-items: center;
 
     position: absolute;
     z-index: 2;
@@ -244,6 +246,7 @@
     right: 0%;
 
     border-radius: 10px;
+    border: none;
     width: 10%;
     height: 30%;
 
@@ -254,6 +257,14 @@
     color: white;
 }
 
+.bio:hover, .twitter:hover {
+    transform: scale(0.9);
+    opacity: 0.9;
+}
+
 .twitter{
+    transition: 2s;
+    display: flex;
+    align-items: center;
     bottom: 0%;
 }
