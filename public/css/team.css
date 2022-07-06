@@ -257,11 +257,6 @@
     color: white;
 }
 
-.bio:hover, .twitter:hover {
-    transform: scale(0.9);
-    opacity: 0.9;
-}
-
 .twitter{
     transition: 2s;
     display: flex;

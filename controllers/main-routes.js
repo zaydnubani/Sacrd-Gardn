@@ -13,4 +13,8 @@ router.get('/team', (req, res) => {
     res.render('team');
 });
 
+router.get('/faq', (req, res) => {
+    res.render('faq');
+});
+
 module.exports = router;
