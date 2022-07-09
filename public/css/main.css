@@ -1,180 +1,180 @@
 /* Small devices (landscape phones, 360px and up) */
 @media screen and (min-width: 360px) {
-        
+    
     .name {
-        /* for mobile responsive  */
-        font-size: 1.5rem;
+
+        font-size: 2rem;
+
     }
 
-    .marque {
-        /* for mobile responsive  */
+    .marque, .nav button {
+
         font-size: 1rem;
+
     } 
 
-    .nav button {
-        /* for mobile responsive  */
-        font-size: 1.25rem;
+    .copyright {
+
+        font-size: 0.5rem;
+
     }
+
 
     .social img {
-        /* for mobile responsive */
-        max-width: 25%;
-    }
 
-    .copyright {
-        /* for mobile responsive */
-        font-size: .55rem;
-    }
-       
+        max-width: 45%;
+
+    }   
+
 } 
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
-        
+    
     .name {
-        /* for mobile responsive  */
-        font-size: 2rem;
+
+        font-size: 2.5rem;
+
     }
 
-    .marque {
-        /* for mobile responsive  */
-        font-size: 1rem;
+    .marque, .nav button {
+
+        font-size: 1.5rem;
+
     } 
 
-    .nav button {
-        /* for mobile responsive  */
-        font-size: 1.5rem;
+    .copyright {
+
+        font-size: 1rem;
+
     }
+
 
     .social img {
-        /* for mobile responsive */
-        max-width: 25%;
-    }
 
-    .copyright {
-        /* for mobile responsive */
-        font-size: .75rem;
-    }
-       
+        max-width: 40%;
+
+    }   
+     
 } 
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) { 
-        
+    
     .name {
-        /* for mobile responsive  */
+
         font-size: 3rem;
+
     }
 
-    .marque {
-        /* for mobile responsive  */
-        font-size: 1.25rem;
+    .marque, .nav button {
+
+        font-size: 2rem;
+
     } 
 
-    .nav button {
-        /* for mobile responsive  */
-        font-size: 2rem;
+    .copyright {
+
+        font-size: 1.5rem;
+
     }
+
 
     .social img {
-        /* for mobile responsive */
-        max-width: 25%;
-    }
 
-    .copyright {
-        /* for mobile responsive */
-        font-size: 1rem;
-    }
-   
+        max-width: 35%;
+
+    }   
+    
 }
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) { 
-        
+    
     .name {
-        /* for mobile responsive  */
+
         font-size: 3.5rem;
+
     }
 
-    .marque {
-        /* for mobile responsive  */
-        font-size: 1.5rem;
+    .marque, .nav button {
+
+        font-size: 2.5rem;
+
     } 
 
-    .nav button {
-        /* for mobile responsive  */
-        font-size: 2.5rem;
+    .copyright {
+
+        font-size: 2rem;
+
     }
+
 
     .social img {
-        /* for mobile responsive */
-        max-width: 25%;
-    }
 
-    .copyright {
-        /* for mobile responsive */
-        font-size: 1.25rem;
-    }
+        max-width: 35%;
 
+    }   
+    
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
-    
+   
     .name {
-        /* for mobile responsive  */
+
         font-size: 4rem;
+
     }
 
-    .marque {
-        /* for mobile responsive  */
-        font-size: 2rem;
+    .marque, .nav button {
+
+        font-size: 3rem;
+
     } 
 
-    .nav button {
-        /* for mobile responsive  */
-        font-size: 3rem;
+    .copyright {
+
+        font-size: 2.5rem;
+
     }
+
 
     .social img {
-        /* for mobile responsive */
-        max-width: 25%;
-    }
 
-    .copyright {
-        /* for mobile responsive */
-        font-size: 1.5rem;
-    }
+        max-width: 35%;
+
+    }   
 
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) { 
-
+   
     .name {
-        /* for mobile responsive  */
-        font-size: 5rem;
+
+        font-size: 4.5rem;
+
     }
 
-    .marque {
-        /* for mobile responsive  */
-        font-size: 3rem;
+    .marque, .nav button {
+
+        font-size: 3.5rem;
+
     } 
 
-    .nav button {
-        /* for mobile responsive  */
-        font-size: 4rem;
+    .copyright {
+
+        font-size: 3rem;
+
     }
+
 
     .social img {
-        /* for mobile responsive */
-        max-width: 25%;
-    }
 
-    .copyright {
-        /* for mobile responsive */
-        font-size: 2rem;
-    }
+        max-width: 30%;
+
+    }   
 }
 
 
@@ -192,10 +192,11 @@ main {
 
 
 .nav {
+
     /* flex layout */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 
     /* sizing and spacing */
     width: 90%;
@@ -208,6 +209,7 @@ main {
     margin-right: auto;
     left: 0;
     right: 0;
+
 }
 
 .nav a {
@@ -216,11 +218,13 @@ main {
 }
 
 .header{
+
     /* flex layout */
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-align: start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .name, .marque{
@@ -232,37 +236,33 @@ main {
 }
 
 .nav button {
+
+    /* sizing and spacing */
+    height: fit-content;
+
     /* styling */
-    color: #C73E7C;
-    background: none;
+    color: white;
+    background-color: #C73E7C;
     border: none;
     border-radius: 10%;
     text-align: center;
+
 }
 
 .nav button:hover {
+
     /* styling */
     transform: scale(0.9);
     opacity: 0.8;
+
 }
 
-.body {
-
-    /* flex layout */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    /* sizing and spacing */
-    width: 90%;
+.marque {
 
     /* styling */
-    overflow-y: hidden;
+    text-align: start;
 
 }
-
-/* team, partners, minting: before july 6th signup after july 6th w/button to external link  */
 
 .footer {
 
@@ -273,12 +273,13 @@ main {
 
     /* sizing and spacing */
     width: 90%;
-    /* margin: 1%; */
+    padding: 1%;
 
     /* styling */
     text-align: center;
 
 }
+
 .social {
 
     /* flex layout */
@@ -289,11 +290,11 @@ main {
 
     /* positioning */
     position: relative;
-    margin-top: 1%;
 
     /* sizing & spacing */
     width: 50%;
     height: auto;
+
 
     /* styling */
     text-align: center;
@@ -301,13 +302,16 @@ main {
     font-weight: 700;
     font-style: italic;
     color: #C73E7C;
+
 }
 
 .social a {
+
     /* styling */
     text-decoration: none;
     width: 25%;
     height: auto;
+
 }
 
 .social img {
@@ -318,17 +322,18 @@ main {
 }
 
 .social img:hover {
+
     /* styling */
     transform: scale(0.9);
+
 }
 
 .copyright {
-    /* spacing and sizing */
-    margin: 1%;
 
     /* styling */
     font-family: futura-pt, sans-serif;
     font-weight: 700;
     font-style: italic;
     color: #C73E7C;
+
 }
