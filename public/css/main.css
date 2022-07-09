@@ -18,7 +18,7 @@
 
     .social img {
         /* for mobile responsive */
-        max-width: 55%;
+        max-width: 25%;
     }
 
     .copyright {
@@ -48,7 +48,7 @@
 
     .social img {
         /* for mobile responsive */
-        max-width: 40%;
+        max-width: 25%;
     }
 
     .copyright {
@@ -78,7 +78,7 @@
 
     .social img {
         /* for mobile responsive */
-        max-width: 40%;
+        max-width: 25%;
     }
 
     .copyright {
@@ -108,7 +108,7 @@
 
     .social img {
         /* for mobile responsive */
-        max-width: 40%;
+        max-width: 25%;
     }
 
     .copyright {
@@ -138,7 +138,7 @@
 
     .social img {
         /* for mobile responsive */
-        max-width: 40%;
+        max-width: 25%;
     }
 
     .copyright {
@@ -168,7 +168,7 @@
 
     .social img {
         /* for mobile responsive */
-        max-width: 40%;
+        max-width: 25%;
     }
 
     .copyright {
@@ -246,13 +246,45 @@ main {
     opacity: 0.8;
 }
 
+.body {
+
+    /* flex layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* sizing and spacing */
+    width: 90%;
+
+    /* styling */
+    overflow-y: hidden;
+
+}
+
 /* team, partners, minting: before july 6th signup after july 6th w/button to external link  */
 
+.footer {
 
+    /* flex layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* sizing and spacing */
+    width: 90%;
+    /* margin: 1%; */
+
+    /* styling */
+    text-align: center;
+
+}
 .social {
+
     /* flex layout */
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
 
     /* positioning */
@@ -260,7 +292,7 @@ main {
     margin-top: 1%;
 
     /* sizing & spacing */
-    width: 30%;
+    width: 50%;
     height: auto;
 
     /* styling */

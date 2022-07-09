@@ -1,4 +1,3 @@
-const team = document.getElementById('team');
 const member = document.getElementsByClassName('member');
 const bio = document.getElementsByClassName('bio');
 
