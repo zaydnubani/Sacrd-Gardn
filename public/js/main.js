@@ -19,8 +19,10 @@ for(let i=0; i<main.length;i++){
     // changes main background color
     main[i].style = `background-image: url('/images/backgrounds/body/${backgrounds_body[Math.floor(Math.random() * backgrounds_body.length)]}');`;
 
+    console.log(main[i].children[1].children[0].children[0].children[1]);
+
     // opens nav menu
-    main[i].children[1].children[0].children[1].addEventListener('click', () => {
+    main[i].children[1].children[0].children[0].children[1].addEventListener('click', () => {
         main[i].children[0].style = "width: 250px; opacity: 1;";
     });
 
@@ -33,7 +35,7 @@ for(let i=0; i<main.length;i++){
 
     main[i].children[1].style = `height: ${(window.innerHeight)*0.2}px`;
 
-    main[i].children[3].style = `height: ${(window.innerHeight)*0.15}px`;
+    main[i].children[3].style = `height: ${(window.innerHeight)*0.2}px`;
 
 
 };
