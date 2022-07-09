@@ -1,191 +1,185 @@
 /* Smaller devices  */
 @media screen and (min-height: 350px) {  
-    #sideNav img {
-        width: 50%;
+    .offcanvas img {
+        max-width: 50%;
    }
 
-   #closebtn {
-        font-size: 45px;
+   .navclose {
+        font-size: 3rem;
    }
 
-   .navLink {
-        font-size: 1.75rem;
+   .link {
+        font-size: 1.15rem;
    }
-   #icons img {
+   
+   .navIcons img {
         width: 10%;
    }
 }
 
 /* Medium Devices */
 @media screen and (min-height: 550px) {  
-    #sideNav img {
-        width: 60%;
+    .offcanvas img {
+        max-width: 60%;
    }
 
-   #closebtn {
-        font-size: 45px;
+   .navclose {
+        font-size: 3rem;
    }
 
-   .navLink {
-        font-size: 2rem;
+   .link {
+        font-size: 1.75rem;
    }
-   #icons img {
-        width: 12%;
-   }
-}
-
-/* large devices */
-@media screen and (min-height: 750px) {  
-   #sideNav img {
-        width: 70%;
-   }
-
-   #closebtn {
-        font-size: 45px;
-   }
-
-   .navLink {
-        font-size: 2.5rem;
-   }
-   #icons img {
+   .navIcons img {
         width: 15%;
    }
 
 }
 
-/* The side navigation menu */
-#mySidenav {
-    /* Full-height */
-    height: 94%;
+/* large devices */
+@media screen and (min-height: 750px) {  
+    .offcanvas img {
+        max-width: 80%;
+   }
 
-    /* 0 width - change this with JavaScript */
-    width: 0; 
-    
-    /* Stay in place */
-    position: fixed; 
-    
-    /* Stay on top */
-    z-index: 1; 
+   .navclose {
+        font-size: 3rem;
+   }
 
-    /* spacing from top */
-    top: 1.5%;
-
-    /* set on the right side */
-    right: 0;
-    
-    /* set background color */
-    background-image: url('/images/backgrounds/body/B6.png');
-
-    /* Disable horizontal scroll */
-    overflow-x: hidden; 
-
-    /* Place content 60px from the top */
-    padding-top: 5px;
-
-    /* 0.5 second transition effect to slide in the sidenav */
-    transition: 0.5s;
-
-    /* sets border and rounds border edges */
-    /* border: solid 5px rgb(0 132 133); */
-    border-radius: 10px;
-
-    /* sets opacity so resting nav isnt visible*/
-    opacity: 0;
-
-    /* sets layout for items on offcanvas menu */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+   .link {
+        font-size: 3rem;
+   }
+   .navIcons img {
+        width: 30%;
+   }
 
 }
 
-#sideNav {
-    height: 100%;
+/* The side navigation menu */
+.offcanvas {
+    
+    /* positioning  */
+    position: fixed; 
+    z-index: 1; 
+    top: 1.5%;
+    right: 0;
 
-    background-image: url('/images/frames/frame2.png');
-    background-size: 320px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-
+    /* flex layout */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+
+    /* spacing and sizing */
+    padding-top: 5px;
+    height: 97%;
+    width: 0; 
+   
+    /* styling */
+    background-image: url('/images/backgrounds/body/B24.png');
+    overflow-x: hidden; 
+    transition: 0.5s;
+    border-radius: 10px;
+    opacity: 0;
+
 }
 
 /* sizing for offcanvas title */
-#sideNav img {
+.offcanvas img {
+    /* sizing and spacing */
     height: auto;
 }
 
 /* Position and style the close button (top right corner) */
-#closebtn {
+.navclose {
+    /* positioning */
     position: absolute;
-    text-decoration: none;
     top: -5px;
     right: -15px;
+
+    /* sizing and spacing */
     width: 50px;
+
+    /* styling */
+    text-decoration: none;
     color: #C73E7C;
 }
 
 /* sets layout for nav links */
-#navLinks {
+.navLinks {
+    /* flex layout */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
+
+    /* sizing and spacing */
     padding: 10px;
+
+    /* styling */
+    align-items: center;
+
 }
 
 /* The navigation menu links */
-#navLinks .navLink {
+.navLinks .link {
+    /* flex layout */
     flex-grow: 2;
+
+    /* sizing and spacing */
     padding-top: 6%;
     padding-bottom: 6%;
     margin: 3px;
-    text-decoration: none;
-    transition: 0.3s;
-    border-radius: 10px;
-    width: fit-content;
     text-align: center;
 
-    /* font style */
+    /* styling */
     font-family: futura-pt, sans-serif;
     font-weight: 700;
     font-style: italic;
     color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
 
 }
 
 /* When you mouse over the navigation links, change their color */
-.navLink:hover {
+.link:hover {
+    /* styling */
     transform: scale(0.9);
     opacity: 0.9;
 }
 
 /* social media icons formatting */
-#icons {
+.navIcons {
+    /* flex layout */
     flex-direction: row;
-    justify-content: flex-end;
     text-align: center;
+    flex-wrap: wrap;
 
+    /* styling */
     font-family: futura-pt, sans-serif;
     font-weight: 700;
     font-style: italic;
     color: #C73E7C;
 }
 
-#icons a {
+.navIcons a {
+    /* sizing and spacing */
+    width: 25%;
+
+    /* styling */
     text-decoration: none;
+
 }
 
-#icons img {
+.navIcons img {
+    /* spacing and sizing */
     margin: 10px;
 }
 
-#icons img:hover {
+.navIcons img:hover {
+    /* styling */
     transform: scale(0.9);
 }
 

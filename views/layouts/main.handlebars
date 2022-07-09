@@ -16,12 +16,11 @@
 
     {{!-- personal css files here: --}}
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/offcanvas.css">
     <link rel="stylesheet" href="/css/landing.css">
     <link rel="stylesheet" href="/css/team.css">
-    <link rel="stylesheet" href="/css/banner.css">
     <link rel="stylesheet" href="/css/faq.css">
+    <link rel="stylesheet" href="/css/flora.css">
 
 
     {{!-- link to imported fonts here: --}}
@@ -33,55 +32,83 @@
     <title></title>
 </head>
 
-<main id="main">
-
+<main>
     {{!-- off-canvas nav menu --}}
-    <div id="mySidenav">
-        <div id="sideNav">
-            <img src="\images\logos\sacrd_gardn_neon.png" alt="logo">
-            <a href="javascript:void(0)" id="closebtn">&times;</a>
-            <div id="navLinks">
-                <a href="#" class="navLink" style="background-color: rgb(90, 29, 87);">RoadMap</a>
-                <a href="/team" class="navLink" style="background-color: rgb(255, 90, 0);">Team</a>
-                <a href="/faq" class="navLink" style="background-color: rgb(225, 0, 68);">Faq</a>
-                <a href="/flora" class="navLink" style="background-color: rgb(167, 0, 76);">△FLORA</a>
-                <a href="https://my.matterport.com/show/?m=mvHce8tduYB&brand=0&play=1&wh=0" class="navLink" style="background-color: rgb(240, 206, 65);">Virtual Garden</a>
-            </div>
-            <div id="icons">
-               <a href='https://discord.gg/jbv7raNcu2'>
-                    <img src="\images\logos\discord.png">
-                </a>
-                <a href='https://www.instagram.com/sacrdgardn/'>
-                    <img src="\images\logos\instagram.png">
-                </a>
-                <a href='https://opensea.io/SACRDGARDN'>
-                    <img src="\images\logos\OpenSea.png">
-                </a>
-                <a href='https://twitter.com/sacrdgardn'>
-                    <img src="\images\logos\twitter.png">
-                </a>
-            </div>
+
+    {{!-- base frame --}}
+    <div class="offcanvas">
+        {{!-- logo --}}
+        <img src="\images\logos\sacrd_gardn_neon.png" alt="logo">
+        
+        {{!-- close --}}
+        <a href="javascript:void(0)" class="navclose">&times;</a>
+
+        {{!-- links --}}
+        <div class="navLinks">
+            <a href="#" class="link" style="background-color: rgb(90, 29, 87);">RoadMap</a>
+            <a href="/team" class="link" style="background-color: rgb(255, 90, 0);">Team</a>
+            <a href="/faq" class="link" style="background-color: rgb(225, 0, 68);">FAQ</a>
+            <a href="/flora" class="link" style="background-color: rgb(167, 0, 76);">△FLORA NFT</a>
+            <a href="https://my.matterport.com/show/?m=mvHce8tduYB&brand=0&play=1&wh=0" class="link" style="background-color: rgb(240, 206, 65);">Virtual Garden</a>
         </div>
+
+        {{!-- social media --}}
+        <div class="navIcons">
+            <a href='https://discord.gg/jbv7raNcu2'>
+                <img src="\images\logos\discord.png">
+            </a>
+            <a href='https://www.instagram.com/sacrdgardn/'>
+                <img src="\images\logos\instagram.png">
+            </a>
+            <a href='https://opensea.io/SACRDGARDN'>
+                <img src="\images\logos\OpenSea.png">
+            </a>
+            <a href='https://twitter.com/sacrdgardn'>
+                <img src="\images\logos\twitter.png">
+            </a>
+        </div>
+
     </div>
 
 
     {{!-- nav --}}
-    <nav id="nav">
-        <a href="/" alt="lading">
-            <span>SACR≡D GARD≡N</span>
-        </a> 
-        <button id='openbtn'>
-            <span>&#9776;</span>
+    <div class="nav">
+
+        {{!-- link to landing --}}
+        <a href="/">
+
+        {{!-- title body --}}
+            <div class="header">
+
+                {{!-- title --}}
+                <div class="name">SACR≡D GARD≡N</div>
+
+                {{!-- sub title --}}
+                <div class="marque">From Dirt to Digital</div>
+
+            </div>
+
+        </a>
+        
+        {{!-- menu button --}}
+        <button>
+            &#9776;
         </button>
-    </nav>
 
+    </div>
 
+    {{!-- route to pages --}}
     {{{body}}}
 
-    {{!-- social media links & icons --}}
+    {{!-- social media --}}
     <div class="social">
+
+        {{!-- links --}}
         <a href='https://discord.gg/jbv7raNcu2'>
+
+            {{!-- media icons --}}
             <img src="\images\logos\discord.png">
+
         </a>
         <a href='https://www.instagram.com/sacrdgardn/'>
             <img src="\images\logos\instagram.png">
@@ -94,12 +121,11 @@
         </a>
     </div>
 
-    <span class="social">© GARDN LLC</span>
+    <div class="copyright">© GARDN LLC</div>
 
     {{!-- imported scripts here: --}}
 
     {{!-- personal js scripts here: --}}
-    <script src="/js/offcanvas.js" alt="offcanvas"></script>
     <script src="/js/main.js" alt="offcanvas"></script>
 
 </main>

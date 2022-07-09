@@ -1,0 +1,108 @@
+/* Small devices (landscape phones, 360px and up) */
+@media screen and (min-width: 360px) {
+    .nft {
+        width: 60%;
+        background-size: 105%;
+    }
+    .nft img {
+        /* sizing and spacing */
+        max-width: 105%;
+    }
+} 
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+    .nft {
+        width: 40%;
+        background-size: 100%;
+    }
+    .nft img {
+        /* sizing and spacing */
+        max-width: 95%;
+    }
+} 
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) { 
+    .nft {
+        width: 30%;
+        background-size: 100%;
+    }
+    .nft img {
+        /* sizing and spacing */
+        max-width: 90%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) { 
+    .nft {
+        width: 30%;
+        background-size: 100%;
+    }
+    .nft img {
+        /* sizing and spacing */
+        max-width: 70%;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+    .nft {
+        width: 30%;
+        background-size: 115%;
+    }
+    .nft img {
+        /* sizing and spacing */
+        max-width: 115%;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) { 
+    .nft {
+        width: 30%;
+        background-size: 100%;
+    }
+    .nft img {
+        /* sizing and spacing */
+        max-width: 100%;
+    }
+}
+
+.flora {
+    /* flex layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    /* sizing and spacing */
+    width: 90%;
+    height: auto;
+
+    /* styling */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.nft {
+    /* flex layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /* sizing and spacing */
+    height: auto;
+    margin: 1%;
+
+    /* styling */
+    background-position: bottom;
+    border-radius: 10px;
+
+}
+
+.nft:hover{
+    transform: scale(0.9);
+}

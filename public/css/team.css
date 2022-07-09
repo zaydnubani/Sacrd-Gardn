@@ -1,7 +1,7 @@
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 360px and up) */
 @media screen and (min-width: 360px) {
     .title{
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     
     .subTitle {
@@ -10,22 +10,22 @@
 
 
     .bio {
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
 
     .twitter img {
-        max-width: 60%;
+        max-width: 35%;
     }
 
     .close {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 } 
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
     .title{
-        font-size: 1.75rem;
+        font-size: 1.35rem;
     }
     
     .subTitle {
@@ -34,15 +34,15 @@
 
 
     .bio {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .twitter img {
-        max-width: 60%;
+        max-width: 40%;
     }
 
     .close {
-        font-size: 3rem;
+        font-size: 1.5rem;
 
     }
 } 
@@ -50,24 +50,24 @@
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) { 
     .title{
-    font-size: 3rem;
+    font-size: 1.75rem;
     }
     
     .subTitle {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
 
     .bio {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     .twitter img {
-        max-width: 60%;
+        max-width: 45%;
     }
 
     .close {
-        font-size: 4rem;
+        font-size: 1.75rem;
 
     }
 }
@@ -75,7 +75,7 @@
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) { 
     .title{
-    font-size: 3rem;
+    font-size: 2.25rem;
     }
     
     .subTitle {
@@ -83,15 +83,15 @@
     }
 
     .bio {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .twitter img {
-        max-width: 60%;
+        max-width: 45%;
     }
 
     .close {
-        font-size: 5rem;
+        font-size: 1.75rem;
 
     }
 }
@@ -99,23 +99,23 @@
 /* X-Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
     .title{
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
        
     .subTitle {
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
 
     .bio {
-        font-size: 3rem;
+        font-size: 2.25rem;
     }
 
     .twitter img {
-        max-width: 60%;
+        max-width: 50%;
     }
 
     .close{
-        font-size: 6rem;
+        font-size: 2rem;
 
     }
 }
@@ -123,7 +123,7 @@
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) { 
     .title{
-        font-size: 4rem;
+        font-size: 2.75rem;
     }
     
     .subTitle {
@@ -131,56 +131,65 @@
     }
 
     .bio {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .twitter img {
-    max-width: 60%;
+    max-width: 55%;
     }
 
     .close{
-        font-size: 6rem;
+        font-size: 2.5rem;
 
     }
     
 }
 
-#team {
-}
-
 .member {
+    /* position */
     position: relative;
 
+    /* flex layout */
     display: flex;
     flex-direction: row;
 
+    /* spacing and sizing */
     max-width: 90%;
     height: 30%;
 
+    /* styling */
+    overflow-x: hidden;
     border-radius: 10px;
     margin: 5%;
 
 }
 
-/* card */
 .card {
+
+    /* flex layout */
     display: flex;
     flex-direction: row;
 
+    /* sizing and spacing */
     padding: 3%;
 
+    /* styling */
     border-radius: 10px;
 }
 
 .text {
+
+    /* flex layou */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     flex-grow: 2;
     flex-shrink: 1;
 
+    /* spacing and sizing */
     padding: 1%;
 
+    /* styling */
     text-align: start;
     font-family: futura-pt, sans-serif;
     font-weight: 700;
@@ -189,77 +198,101 @@
 }
 
 .image {
+
+    /* spacing and sizing */
     max-width: 30%;
 }
 
 .image img {
+
+    /* spacing and sizing */
     max-width: 100%;
     height: auto;
 
+    /* styling */
     border-radius: 10px;
+
 }
 
 /* bio & twitter tab */
 .bio, .twitter {
+
+    /* positioning */
     position: absolute;
     right: 0%;
 
+    /* flex layout */
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
 
+    /* spacing and sizing */
     padding-left: 1%;
     padding-right: 1%;
-    border-radius: 10px;
     height: 50%;
     width: 10%;
-
     text-align: center;
+
 }
 
 .bio {
+    /* position */
     top: 0%;
 
+    /* styling */
     transition: 2s;
     text-decoration: none;
     color: #C73E7C;
     font-family: futura-pt, sans-serif;
     font-weight: 700;
     font-style: italic;
-
     background-color: rgb(240, 206, 65);
     background-image: url('/images/backgrounds/body/B21.png');
 }
 
 .bio p {
+
+    /* spacing and sizing */
     max-width: 90%;
     height: 110%;
+
 }
 
 .close {
+
+    /* flex layout */
     display: flex;
     align-items: center;
 
+    /* position */
     position: absolute;
     z-index: 2;
     top: 0%;
     right: 0%;
 
+    /* sizing and spacing */
+    padding: 1%;
+
+    /* styling */
     border-radius: 10px;
     border: none;
-    width: 10%;
-    height: 30%;
-
     background-color: rgb(240, 206, 65);
     background-image: url('/images/backgrounds/body/B6.png');
-
     text-align: center;
     color: white;
+
 }
 
 .twitter{
-    transition: 2s;
+
+    /* flex layout */
     display: flex;
     align-items: center;
+
+    /* position */
     bottom: 0%;
+
+    /* styling */
+    transition: 2s;
+
 }

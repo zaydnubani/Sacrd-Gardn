@@ -36,17 +36,17 @@ for(let i=0;i<bio.length;i++){
         });
 
         if(screen.width >= 1400){
-            bio[i].style = `width:100%; height:100%; font-size:4rem; overflow-y:scroll; z-index:1; padding:2%;`;
+            bio[i].style = `width:100%; height:100%; font-size:2rem; overflow-y:scroll; z-index:1; padding:2%;`;
         } else if(screen.width >= 1200) {
-            bio[i].style = 'width:100%; height:100%; font-size:3rem; overflow-y:scroll; z-index:1; padding:1%';
+            bio[i].style = 'width:100%; height:100%; font-size:1.75rem; overflow-y:scroll; z-index:1; padding:1%';
         }  else if(screen.width >= 992) {
-            bio[i].style = 'width:100%; height:100%; font-size:2.5rem; overflow-y:scroll; z-index:1; padding:2%';
+            bio[i].style = 'width:100%; height:100%; font-size:1.5rem; overflow-y:scroll; z-index:1; padding:2%';
         } else if(screen.width >= 768) {
-            bio[i].style = 'width:100%; height:100%; font-size:2rem; overflow-y:scroll; z-index:1; padding-right:5%;';
+            bio[i].style = 'width:100%; height:100%; font-size:1.25rem; overflow-y:scroll; z-index:1; padding:2%;';
         } else if(screen.width >= 576) {
-            bio[i].style = 'width:100%; height:100%; font-size:1.5rem; overflow-y:scroll; z-index:1; padding:2%;';
-        } else if(screen.width >= 360) {
             bio[i].style = 'width:100%; height:100%; font-size:1rem; overflow-y:scroll; z-index:1; padding:2%;';
+        } else if(screen.width >= 360) {
+            bio[i].style = 'width:100%; height:100%; font-size:0.75rem; overflow-y:scroll; z-index:1; padding:2%;';
         }
     });
 }

@@ -1,5 +1,6 @@
-const background_color = () => {
+const main = () => {
 
+    // array with background filenames
     const backgrounds_body = [
         'B6.png'
         ,
@@ -10,16 +11,29 @@ const background_color = () => {
         'B26.png'
     ];
 
-    const main = document.getElementById('main')
-    const nav_open = document.getElementById('openbtn');
-
-    const background_random = Math.floor(Math.random() * backgrounds_body.length);
+    // grabs all <main> tags
+    const main = document.getElementsByTagName('main');
     
-    nav_open.style = `background-image: url('/images/backgrounds/body/${backgrounds_body[0]}');`;
-    main.style = `background-image: url('/images/backgrounds/body/${backgrounds_body[background_random]}');`;
+    // loops through main tags
+    for(let i=0; i<main.length;i++){
 
+        // changes main background color
+        main[i].style = `background-image: url('/images/backgrounds/body/${backgrounds_body[Math.floor(Math.random() * backgrounds_body.length)]}');`;
+
+        // opens nav menu
+        main[i].children[1].children[1].addEventListener('click', () => {
+            main[i].children[0].style = "width: 250px; opacity: 1;";
+        });
+
+        // closes nav menu
+        main[i].children[0].children[1].addEventListener('click', () => {
+            main[i].children[0].style = "width:0; opacity:0;";
+        });
+
+    };
 };
 
-background_color();
+// calls function main
+main();
 
 
