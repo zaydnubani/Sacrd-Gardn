@@ -1,9 +1,15 @@
 /* Small devices (landscape phones, 360px and up) */
 @media screen and (min-width: 360px) {
     
-    .name {
+    .name img   {
 
-        font-size: 2rem;
+        max-width: 90%;
+        
+    }
+
+    .marque {
+
+        margin-left: 5px;
 
     }
 
@@ -31,9 +37,15 @@
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
     
-    .name {
+    .name img   {
 
-        font-size: 2.5rem;
+        max-width: 60%;
+        
+    }
+
+    .marque {
+
+        margin-left: 5px;
 
     }
 
@@ -61,9 +73,15 @@
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) { 
     
-    .name {
+    .name img   {
 
-        font-size: 3rem;
+        max-width: 70%;
+        
+    }
+
+    .marque {
+
+        margin-left: 9px;
 
     }
 
@@ -91,9 +109,15 @@
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) { 
     
-    .name {
+    .name img   {
 
-        font-size: 3.5rem;
+        max-width: 80%;
+        
+    }
+
+    .marque {
+
+        margin-left: 10px;
 
     }
 
@@ -121,9 +145,15 @@
 /* X-Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
    
-    .name {
+    .name img   {
 
-        font-size: 4rem;
+        max-width: 90%;
+        
+    }
+
+    .marque {
+
+        margin-left: 10px;
 
     }
 
@@ -151,9 +181,15 @@
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) { 
    
-    .name {
+    .name img   {
 
-        font-size: 4.5rem;
+        max-width: 100%;
+
+    }
+
+    .marque {
+
+        margin-left: 15px;
 
     }
 
@@ -226,8 +262,15 @@ main {
     align-items: center;
 
 }
+.name {
 
-.name, .marque{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+
+}
+
+.marque{
     /* styling */
     font-family: futura-pt, sans-serif;
     font-weight: 700;

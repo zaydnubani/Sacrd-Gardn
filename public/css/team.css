@@ -4,8 +4,14 @@
         font-size: 1rem;
     }
     
+    .amanda {
+
+        font-size: 0.75rem;
+
+    }
+
     .subTitle {
-        font-size: .75rem;
+        font-size: .65rem;
     }
 
 
@@ -26,6 +32,12 @@
 @media screen and (min-width: 576px) {
     .title{
         font-size: 1.35rem;
+    }
+
+    .amanda {
+
+        font-size: 1.15rem;
+
     }
     
     .subTitle {
@@ -49,9 +61,17 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) { 
+
     .title{
     font-size: 1.75rem;
     }
+    
+    .amanda {
+
+        font-size: 1.5rem;
+
+    }
+    
     
     .subTitle {
         font-size: 1.25rem;
@@ -74,9 +94,17 @@
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) { 
+
     .title{
     font-size: 2.25rem;
     }
+
+    .amanda {
+
+        font-size: 2rem;
+
+    }
+    
     
     .subTitle {
         font-size: 1.5rem;
@@ -98,8 +126,15 @@
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
+
     .title{
         font-size: 2.5rem;
+    }
+
+    .amanda {
+
+        font-size: 2.25rem;
+
     }
        
     .subTitle {
@@ -122,8 +157,15 @@
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) { 
+
     .title{
         font-size: 2.75rem;
+    }
+
+    .amanda {
+
+        font-size: 2.5rem;
+
     }
     
     .subTitle {
@@ -177,7 +219,7 @@
 
     /* styling */
     border-radius: 10px;
-    margin: 1%;
+    margin: 5%;
 
 }
 

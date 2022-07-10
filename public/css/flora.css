@@ -1,12 +1,12 @@
 /* Small devices (landscape phones, 360px and up) */
 @media screen and (min-width: 360px) {
     .nft {
-        width: 60%;
+        width: 45%;
         background-size: 105%;
     }
     .nft img {
         /* sizing and spacing */
-        max-width: 105%;
+        max-width: 100%;
     }
 } 
 
