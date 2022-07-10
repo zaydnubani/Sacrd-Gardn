@@ -1,6 +1,12 @@
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 360px) {
     
+    .landing {
+
+        background-size: 150%;
+
+    }
+
     .landing img {
 
         /* mobile responsive */
@@ -12,6 +18,12 @@
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
     
+    .landing {
+
+        background-size: 110%;
+
+    }
+
     .landing img {
 
         /* mobile responsive */
@@ -23,6 +35,12 @@
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) { 
     
+    .landing {
+
+        background-size: 100%;
+
+    }
+
     .landing img {
 
         /* mobile responsive */
@@ -34,6 +52,12 @@
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) { 
      
+    .landing {
+
+        background-size: 100%;
+
+    }
+
     .landing img {
 
         /* mobile responsive */
@@ -45,6 +69,12 @@
 /* X-Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
     
+    .landing {
+
+        background-size: 100%;
+
+    }
+
     .landing img {
 
         /* mobile responsive */
@@ -56,6 +86,12 @@
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) { 
 
+    .landing {
+
+        background-size: 100%;
+
+    }
+
     .landing img {
 
         /* mobile responsive */
@@ -63,16 +99,6 @@
     }
 
 }
-
-@media screen and (min-width: 1800px) { 
-
-    .landing img {
-
-        /* mobile responsive */
-        max-width: 30%;
-    }
-
-} 
 
 .landing {
 
@@ -88,8 +114,8 @@
     /* styling */
     border-radius: 10px;
     background-repeat: no-repeat;
-    background-size: 100%;
     background-position: center;
+
 }
 
 .landing div {
