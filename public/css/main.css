@@ -7,15 +7,17 @@
         
     }
 
-    .marque {
+    .nav button img {
 
-        margin-left: 5px;
+        max-width: 90%;
 
     }
 
-    .marque, .nav button {
+    .marque {
 
-        font-size: 1.25rem;
+        margin-left: 7.5px;
+        font-size: 0.75rem;
+
 
     } 
 
@@ -39,21 +41,23 @@
     
     .name img   {
 
-        max-width: 60%;
+        max-width: 72.5%;
         
+    }
+
+    .nav button img {
+
+        max-width: 90%;
+
     }
 
     .marque {
 
-        margin-left: 5px;
+        margin-left: 7.5px;
+        font-size: 1rem;
+
 
     }
-
-    .marque, .nav button {
-
-        font-size: 1.5rem;
-
-    } 
 
     .copyright {
 
@@ -75,21 +79,23 @@
     
     .name img   {
 
-        max-width: 70%;
+        max-width: 67.5%;
         
+    }
+
+    .nav button img {
+
+        max-width: 80%;
+
     }
 
     .marque {
 
         margin-left: 9px;
+        font-size: 1.25rem;
+
 
     }
-
-    .marque, .nav button {
-
-        font-size: 2rem;
-
-    } 
 
     .copyright {
 
@@ -111,21 +117,23 @@
     
     .name img   {
 
-        max-width: 80%;
+        max-width: 70%;
         
+    }
+
+    .nav button img {
+
+        max-width: 80%;
+
     }
 
     .marque {
 
         margin-left: 10px;
+        font-size: 1.5rem;
+
 
     }
-
-    .marque, .nav button {
-
-        font-size: 2.5rem;
-
-    } 
 
     .copyright {
 
@@ -147,21 +155,23 @@
    
     .name img   {
 
-        max-width: 90%;
+        max-width: 82.5%;
         
+    }
+
+    .nav button img {
+
+        max-width: 90%;
+
     }
 
     .marque {
 
-        margin-left: 10px;
+        margin-left: 15px;
+        font-size: 1.75rem;
+
 
     }
-
-    .marque, .nav button {
-
-        font-size: 3rem;
-
-    } 
 
     .copyright {
 
@@ -183,21 +193,23 @@
    
     .name img   {
 
-        max-width: 100%;
+        max-width: 95%;
+
+    }
+
+    .nav button img {
+
+        max-width: 110%;
 
     }
 
     .marque {
 
-        margin-left: 15px;
+        margin-left: 17.5px;
+        font-size: 2rem;
+
 
     }
-
-    .marque, .nav button {
-
-        font-size: 3.5rem;
-
-    } 
 
     .copyright {
 
@@ -285,8 +297,7 @@ main {
     width: fit-content;
 
     /* styling */
-    color: white;
-    background-color: #C73E7C;
+    background: none;    
     border: none;
     border-radius: 10%;
     text-align: center;

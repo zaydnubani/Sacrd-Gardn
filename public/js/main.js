@@ -33,7 +33,7 @@ for(let i=0; i<main.length;i++){
 
     console.log(window.innerHeight);
 
-    main[i].children[1].style = `height: ${(window.innerHeight)*0.15}px`;
+    main[i].children[1].style = `height: ${(window.innerHeight)*0.2}px`;
 
     main[i].children[3].style = `height: ${(window.innerHeight)*0.2}px`;
 
