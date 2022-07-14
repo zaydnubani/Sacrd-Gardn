@@ -22,7 +22,7 @@ for(let i=0; i<main.length;i++){
     console.log(main[i].children[1].children[0].children[0].children[1]);
 
     // opens nav menu
-    main[i].children[1].children[0].children[0].children[1].addEventListener('click', () => {
+    main[i].children[1].children[0].children[1].addEventListener('click', () => {
         main[i].children[0].style = "width: 250px; opacity: 1;";
     });
 

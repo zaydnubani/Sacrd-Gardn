@@ -15,7 +15,6 @@
 
     .marque {
 
-        margin-left: 7.5px;
         font-size: 0.75rem;
 
 
@@ -53,7 +52,6 @@
 
     .marque {
 
-        margin-left: 7.5px;
         font-size: 1rem;
 
 
@@ -91,7 +89,6 @@
 
     .marque {
 
-        margin-left: 9px;
         font-size: 1.25rem;
 
 
@@ -129,7 +126,6 @@
 
     .marque {
 
-        margin-left: 10px;
         font-size: 1.5rem;
 
 
@@ -167,7 +163,6 @@
 
     .marque {
 
-        margin-left: 15px;
         font-size: 1.75rem;
 
 
@@ -199,13 +194,12 @@
 
     .nav button img {
 
-        max-width: 110%;
+        max-width: 100%;
 
     }
 
     .marque {
 
-        margin-left: 17.5px;
         font-size: 2rem;
 
 
@@ -244,12 +238,11 @@ main {
     /* flex layout */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
 
     /* sizing and spacing */
-    width: 90%;
+    width: 100%;
     height: fit-content;
-    padding: 1%;
     border-radius: 10px;
 
     /* position */
@@ -283,6 +276,9 @@ main {
 }
 
 .marque{
+    display: flex;
+    justify-content: center;
+
     /* styling */
     font-family: futura-pt, sans-serif;
     font-weight: 700;

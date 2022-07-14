@@ -61,7 +61,7 @@
     /* positioning  */
     position: fixed; 
     z-index: 2; 
-    top: 1.5%;
+    top: 0;
     right: 0;
 
     /* flex layout */
@@ -72,13 +72,13 @@
 
     /* spacing and sizing */
     padding-top: 5px;
-    height: 97%;
+    height: 100%;
     width: 0; 
    
     /* styling */
     background-image: url('/images/backgrounds/body/B24.png');
     overflow-x: hidden; 
-    transition: 0.5s;
+    transition: 1s;
     border-radius: 10px;
     opacity: 0;
 
@@ -107,14 +107,15 @@
 
 /* sets layout for nav links */
 .navLinks {
+
     /* flex layout */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
 
     /* sizing and spacing */
-    padding: 10px;
+    width: 100%;
+    padding: 1%;
 
     /* styling */
     align-items: center;
@@ -124,13 +125,13 @@
 /* The navigation menu links */
 .navLinks .link {
     /* flex layout */
-    flex-grow: 2;
 
     /* sizing and spacing */
     padding-top: 6%;
     padding-bottom: 6%;
     margin: 3px;
     text-align: center;
+    width: 100%;
 
     /* styling */
     font-family: futura-pt, sans-serif;

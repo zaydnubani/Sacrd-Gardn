@@ -97,65 +97,76 @@
 }
 
 .answer {
+    
     position: absolute;
     right: 0px;
+    z-index: 1;
 
     width: 10%;
     height: 90%;
-    z-index: 1;
 
     transition: 2s;
     background-color: #C73E7C;
     overflow: hidden;
+
 }
 
 .question span, .answer p{
+
+    margin: 0px;
+
     border-radius: 10px;
     font-family: futura-pt, sans-serif;
     font-weight: 700;
     font-style: italic;
     color: #C73E7C;
-    margin: 0px;
 }
 
 .question span{
+
     color: #C73E7C;
 
 }
 
 .answer p{
-    text-align: start;
+
     padding: 1%;
     height: 80%;
+
     overflow-y: scroll;
     color: white;
+    text-align: start;
+
 }
 
 .expand, .contract {
-    color: white;
-    background-color: #C73E7C;
+
+    background: none;
     border: none;
+
 }
 
 .expand{
 
     height: fit-content;
-
-    color: white;
-    background-color: #C73E7C;
     padding: 1%;
+
     border-radius: 10%;
+    text-align: center;
+    color: #C73E7C;
+
+
 
 }
 
 .contract{
+
     position: relative;
-    right: -5px;
 
     height: 100%;
 
-    color: #C73E7C;
-    background-color: white;
+    color: white;
+    text-align: center;
     
 }
 
