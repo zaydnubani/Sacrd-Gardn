@@ -18,7 +18,7 @@ for(let i=0;i<faq.length;i++){
     });
 
     faq[i].children[1].children[1].addEventListener('click', () => {
-        faq[i].children[1].style = 'visibility: hidden; width:5%;';
+        faq[i].children[1].style = 'visibility: hidden; width:0%;';
     });
 
 };

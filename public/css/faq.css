@@ -1,58 +1,99 @@
 /* Small devices (landscape phones, 360px and up) */
 @media screen and (min-width: 360px) {
 
-    .question span, .answer p, .expand, .contract{
+    .question span, .expand, .contract{
         font-size: 1rem;
+    }
+
+    .answer p{
+        font-size: 0.7rem;
+
     }
 } 
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
 
-    .question span, .answer p, .expand, .contract{
+    .question span, .expand, .contract{
         font-size: 1.5rem;
+    }
+
+    .answer p{
+        font-size: .9rem;
     }
 } 
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) { 
 
-    .question span, .answer p, .expand, .contract{
+    .question span, .expand, .contract{
         font-size: 2rem;
+    }
+
+    .answer p{
+        font-size: 1.1rem;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) { 
 
-    .question span, .answer p, .expand, .contract{
+    .question span, .expand, .contract{
         font-size: 2.5rem;
+    }
+
+    .answer p{
+        font-size: 1.45rem;
     }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
 
-    .question span, .answer p, .expand, .contract{
+    .question span, .expand, .contract{
         font-size: 3rem;
+    }
+
+    .answer p{
+        font-size: 1.6rem;
     }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) { 
 
-    .question span, .answer p, .expand, .contract{
+    .question span, .expand, .contract{
         font-size: 3.5rem;
     }
 
+    
+    .answer p{
+        font-size: 1.85rem;
+    }
+
 }
+
+/* XXX-Large devices (larger desktops, 1800px and up) */
+@media screen and (min-width: 1800px) { 
+
+    .question span, .expand, .contract{
+        font-size: 3.5rem;
+    }
+
+    
+    .answer p{
+        font-size: 2rem;
+    }
+
+}
+
 
 #faqs {
 
     display: flex;
     flex-direction: column;
 
-    width: 90%;
+    width: 95%;
     padding: 1%;
 
 }
@@ -102,7 +143,7 @@
     right: 0px;
     z-index: 1;
 
-    width: 10%;
+    width: 0%;
     height: 90%;
 
     transition: 2s;

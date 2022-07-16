@@ -1,7 +1,7 @@
 /* Smaller devices  */
 @media screen and (min-height: 350px) {  
     .offcanvas img {
-        max-width: 40%;
+        max-width: 32.5%;
    }
 
    .navclose {
@@ -9,7 +9,7 @@
    }
 
    .link {
-        font-size: 1.25rem;
+        font-size: 1.2rem;
    }
    
    .navIcons img {
@@ -20,7 +20,7 @@
 /* Medium Devices */
 @media screen and (min-height: 450px) {  
     .offcanvas img {
-        max-width: 50%;
+        max-width: 40%;
    }
 
    .navclose {
@@ -28,7 +28,7 @@
    }
 
    .link {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
    }
    .navIcons img {
         width: 12.5%;
@@ -39,7 +39,7 @@
 /* large devices */
 @media screen and (min-height: 650px) {  
     .offcanvas img {
-        max-width: 60%;
+        max-width: 55%;
    }
 
    .navclose {
@@ -47,7 +47,7 @@
    }
 
    .link {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
    }
 
    .navIcons img {
@@ -67,7 +67,7 @@
    }
 
    .link {
-        font-size: 3.25rem;
+        font-size: 3.1rem;
    }
    .navIcons img {
         width: 14%;

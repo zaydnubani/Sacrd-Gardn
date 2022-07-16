@@ -9,19 +9,22 @@
         max-width: 100%;
     }
     .popup {
-        width: 225px;
+        width: 235px;
+        padding: 5%;
+    }
+    .popclose{
+        font-size: 0.75rem;
     }
     .notice{
         font-size: 1.05rem;
-
     }
-    .member {
-        font-size: 0.95rem;
+    .nft.membership span {
+        font-size: 0.75rem;
     }
-    
-    .ship { 
-        font-size: 0.658rem;
+    .nft.membership div div{
+        font-size: 0.65rem;
     }
+ 
 } 
 
 /* Small devices (landscape phones, 576px and up) */
@@ -36,10 +39,21 @@
     }
     .popup {
         width: 300px;
+        padding: 4%;
+
+    }
+    .popclose{
+        font-size: 1.15rem;
     }
     .notice{
         font-size: 1.45rem;
 
+    }
+    .nft.membership span {
+        font-size: 1.15rem;
+    }
+    .nft.membership div div{
+        font-size: 1rem;
     }
 } 
 
@@ -55,10 +69,20 @@
     }
     .popup {
         width: 350px;
+        padding: 3.5%;
+
+    }
+    .popclose{
+        font-size: 1.25rem;
     }
     .notice{
         font-size: 1.675rem;
-
+    }
+    .nft.membership span {
+        font-size: 1.15rem;
+    }
+    .nft.membership div div{
+        font-size: 0.9rem;
     }
 }
 
@@ -74,10 +98,21 @@
     }
     .popup {
         width: 500px;
+        padding: 3%;
+
+    }
+    .popclose{
+        font-size: 1.5rem;
     }
     .notice{
         font-size: 2.25rem;
 
+    }
+    .nft.membership span {
+        font-size: 1.5rem;
+    }
+    .nft.membership div div{
+        font-size: 1.15rem;
     }
 }
 
@@ -93,18 +128,28 @@
     }
     .popup {
         width: 650px;
+        padding: 2.5%;
+
+    }
+    .popclose{
+        font-size: 1.75rem;
     }
     .notice{
         font-size: 2.75rem;
 
+    }
+    .nft.membership span {
+        font-size: 1.75rem;
+    }
+    .nft.membership div div{
+        font-size: 1.25rem;
     }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) { 
     .nft {
-        width: 30%;
-        background-size: 100%;
+        width: 25%;
     }
     .nft img {
         /* sizing and spacing */
@@ -112,10 +157,50 @@
     }
     .popup {
         width: 850px;
+        padding: 2%;
+
+    }
+    .popclose{
+        font-size: 1.95rem;
     }
     .notice{
         font-size: 3.5rem;
 
+    }
+    .nft.membership span {
+        font-size: 1.75rem;
+    }
+    .nft.membership div div{
+        font-size: 1.25rem;
+    }
+}
+
+/* XXX-Large devices (larger desktops, 1800px and up) */
+@media screen and (min-width: 1800px) { 
+    .nft {
+        width: 25%;
+    }
+    .nft img {
+        /* sizing and spacing */
+        max-width: 100%;
+    }
+    .popup {
+        width: 850px;
+        padding: 2%;
+
+    }
+    .popclose{
+        font-size: 1.95rem;
+    }
+    .notice{
+        font-size: 3.5rem;
+
+    }
+    .nft.membership span {
+        font-size: 2.35rem;
+    }
+    .nft.membership div div{
+        font-size: 1.25rem;
     }
 }
 
@@ -126,30 +211,13 @@
 
     /* flex layout */
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-
-    /* sizing and spacing */
-    width: 90%;
-    height: auto;
-
-}
-
-.nfteaze {
-
-    /* position */
-    position: relative;
-
-    /* flex layout */
-    display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 
     /* sizing and spacing */
-    width: 90%;
+    width: 95%;
     height: auto;
 
 }
@@ -166,8 +234,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    padding: 1%;
 
     text-align: center;
     border-radius: 10px;
@@ -186,7 +252,6 @@
     font-weight: 700;
     font-style: italic;
     text-decoration: none;
-    font-size: 2rem;
 
 }
 
@@ -218,6 +283,7 @@
 }
 
 .nft {
+
     /* flex layout */
     display: flex;
     justify-content: center;
@@ -226,10 +292,43 @@
 
     /* sizing and spacing */
     height: auto;
-    margin: 1%;
 
     /* styling */
     background-position: bottom;
     border-radius: 10px;
+
+}
+
+.nft.membership div{
+
+    /* flex layout */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.nft.membership span {
+
+    margin-bottom: 1%;
+
+}
+
+.nft.membership div div{
+
+    flex-grow: 2;
+
+    padding: 2%;
+    margin: 1%;
+
+    /* styling */
+    color: white; 
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    border-radius: 10px;
+    text-align: center;
 
 }
