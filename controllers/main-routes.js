@@ -21,4 +21,8 @@ router.get('/roadmap', (req, res) => {
     res.render('roadmap');
 });
 
+router.get('/terms', (req, res) => {
+    res.render('terms');
+});
+
 module.exports = router;

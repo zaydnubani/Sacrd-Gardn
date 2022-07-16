@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="/css/faq.css">
     <link rel="stylesheet" href="/css/flora.css">
     <link rel="stylesheet" href="/css/roadmap.css">
+    <link rel="stylesheet" href="/css/terms.css">
+
 
 
 
@@ -50,7 +52,7 @@
 
         {{!-- links --}}
         <div class="navLinks">
-            <a href="/roadmap" class="link" style="background-color: rgb(90, 29, 87);">RoadMap</a>
+            <a href="/roadmap" class="link" style="background-color: rgb(90, 29, 87);">Road Map</a>
             <a href="/team" class="link" style="background-color: rgb(255, 90, 0);">Team</a>
             <a href="/faq" class="link" style="background-color: rgb(225, 0, 68);">FAQ</a>
             <a href="/flora" class="link" style="background-color: rgb(167, 0, 76);">△FLORA NFT</a>
@@ -99,7 +101,7 @@
         </div>
 
         {{!-- sub title --}}
-            <div class="marque">Psychedelic Plants from Dirt to Digital</div>
+            {{!-- <div class="marque">Psychedelic Plants from Dirt to Digital</div> --}}
 
         
     </div>
@@ -133,11 +135,23 @@
             
         </div>
 
+        <span class="message">
+            Get ahead of the crowd and signup for the NFT Presale!
+        </span>
+        
+        <div class="signup">
+            {{> signup}}
+        </div>
+
+        <a href="/terms" class="conditions">Terms and Conditions</a>
+
+
         <div class="copyright">© GARDN LLC</div>
 
     </div>
 
     {{!-- imported scripts here: --}}
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     {{!-- personal js scripts here: --}}
     <script src="/js/main.js" alt="offcanvas"></script>

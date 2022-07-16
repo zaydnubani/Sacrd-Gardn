@@ -23,12 +23,12 @@ for(let i=0; i<main.length;i++){
 
     // opens nav menu
     main[i].children[1].children[0].children[1].addEventListener('click', () => {
-        main[i].children[0].style = "width: 250px; opacity: 1;";
+        main[i].children[0].style = "right: 0px;";
     });
 
     // closes nav menu
     main[i].children[0].children[1].addEventListener('click', () => {
-        main[i].children[0].style = "width:0; opacity:0;";
+        main[i].children[0].style = "right: -400px;";
     });
 
     console.log(window.innerHeight);

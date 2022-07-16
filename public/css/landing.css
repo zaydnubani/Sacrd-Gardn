@@ -10,7 +10,7 @@
     .landing img {
 
         /* mobile responsive */
-        max-width: 45%;
+        max-width: 60%;
     }
 
 } 
@@ -102,6 +102,8 @@
 
 .landing {
 
+    position: relative;
+
     /* flex layout */
     display: flex;
     align-items: center;
@@ -112,9 +114,30 @@
     height: 100%;
 
     /* styling */
-    border-radius: 10px;
+    overflow: hidden;
     background-repeat: no-repeat;
     background-position: center;
+
+}
+
+.lottie {
+
+    /* position */
+    position: relative;
+
+    width: auto;
+    height: 300%;
+
+}
+
+.landing img {
+    
+    /* position */
+    position: absolute;
+
+    /* spacing and sizing */
+    margin: auto;
+
 
 }
 

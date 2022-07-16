@@ -13,25 +13,53 @@
 
     }
 
-    .marque {
-
-        font-size: 0.75rem;
-
-
-    } 
-
-    .copyright {
+    .message {
 
         font-size: 0.75rem;
 
     }
 
+    .copyright, .conditions {
+
+        font-size: 0.5rem;
+
+    }
+
+    .social a {
+
+        width: 25%;
+    }
 
     .social img {
 
-        max-width: 45%;
+        max-width: 40%;
 
-    }   
+    }  
+
+    .signup {
+
+        width: 100%;
+
+    }
+
+    .seva-form {
+
+        width: 90%;
+
+    }
+
+    .mint {
+
+        width: 80%;
+ 
+    }
+
+    .mint, .formkit-input, .formkit-submit, .formkit-alert.formkit-alert-success {
+
+        font-size: 0.6rem;
+
+
+    }
 
 } 
 
@@ -50,25 +78,53 @@
 
     }
 
-    .marque {
+    .message {
 
-        font-size: 1rem;
-
-
-    }
-
-    .copyright {
-
-        font-size: 1rem;
+        font-size: 1.2rem;
 
     }
 
+    .copyright, .conditions {
+
+        font-size: 1rem;
+
+    }
+
+    .social a {
+
+        width: 25%;
+    }
 
     .social img {
 
         max-width: 40%;
 
-    }   
+    } 
+
+    .signup {
+
+        width: 92.5%;
+
+    }
+
+    .seva-form {
+
+        width: 90%;
+
+    }
+
+    .mint {
+
+        width: 80%;
+ 
+    }
+
+    .mint, .formkit-input, .formkit-submit, .formkit-alert.formkit-alert-success {
+
+        font-size: 0.75rem;
+
+
+    }
      
 } 
 
@@ -87,25 +143,53 @@
 
     }
 
-    .marque {
+    .message {
 
-        font-size: 1.25rem;
-
-
-    }
-
-    .copyright {
-
-        font-size: 1.5rem;
+        font-size: 1.65rem;
 
     }
 
+    .copyright, .conditions {
+
+        font-size: 1.2rem;
+
+    }
+
+    .social a {
+
+        width: 25%;
+    }
 
     .social img {
 
-        max-width: 35%;
+        max-width: 32.5%;
 
-    }   
+    }
+
+    .signup {
+
+        width: 90%;
+
+    }
+
+    .seva-form {
+
+        width: 100%;
+
+    }
+
+    .mint {
+
+        width: 85%;
+ 
+    }
+
+    .mint, .formkit-input, .formkit-submit, .formkit-alert.formkit-alert-success {
+
+        font-size: 1rem;
+
+
+    }
     
 }
 
@@ -124,25 +208,54 @@
 
     }
 
-    .marque {
+    .message {
 
-        font-size: 1.5rem;
-
-
-    }
-
-    .copyright {
-
-        font-size: 2rem;
+        font-size: 1.75rem;
 
     }
 
+    .copyright, .conditions {
+
+        font-size: 1.25rem;
+
+    }
+
+    .social a {
+
+        width: 25%;
+    }
 
     .social img {
 
-        max-width: 35%;
+        max-width: 30%;
 
-    }   
+    }
+
+    .signup {
+
+        /* mobile responsive */
+        width: 75%;
+
+    }
+
+    .seva-form {
+
+        width: 95%;
+
+    }
+
+    .mint {
+
+        width: 80%;
+ 
+    }
+
+    .mint, .formkit-input, .formkit-submit, .formkit-alert.formkit-alert-success {
+
+        font-size: 1rem;
+
+
+    }
     
 }
 
@@ -161,25 +274,54 @@
 
     }
 
-    .marque {
+    .message {
 
         font-size: 1.75rem;
 
+    }
+
+    .copyright, .conditions {
+
+        font-size: 1.2rem;
 
     }
 
-    .copyright {
+    .social a {
 
-        font-size: 2.5rem;
-
+        width: 22.5%;
     }
-
 
     .social img {
 
-        max-width: 35%;
+        max-width: 27.5%;
 
-    }   
+    }
+
+    .signup {
+
+        /* mobile responsive */
+        width: 60%;
+
+    }
+
+    .seva-form {
+
+        width: 95%;
+
+    }
+
+    .mint {
+
+        width: 80%;
+ 
+    }
+
+    .mint, .formkit-input, .formkit-submit, .formkit-alert.formkit-alert-success {
+
+        font-size: 1rem;
+
+
+    }
 
 }
 
@@ -198,25 +340,121 @@
 
     }
 
-    .marque {
+    .message {
 
         font-size: 2rem;
 
+    }
+
+    .copyright, .conditions {
+
+        font-size: 1.35rem;
 
     }
 
-    .copyright {
+    .social a {
 
-        font-size: 3rem;
-
+        width: 20%;
     }
-
 
     .social img {
 
         max-width: 30%;
 
-    }   
+    }
+
+    .signup {
+
+        /* mobile responsive */
+        width: 60%;
+
+    }
+
+    .seva-form {
+
+        width: 92.5%;
+
+    }
+
+    .mint {
+
+        width: 77.5%;
+ 
+    }
+
+    .mint, .formkit-input, .formkit-submit, .formkit-alert.formkit-alert-success {
+
+        font-size: 1.1rem;
+
+
+    }
+
+}
+
+/* XXX-Large devices (larger desktops, 1800px and up) */
+@media screen and (min-width: 1800px) { 
+   
+    .name img   {
+
+        max-width: 95%;
+
+    }
+
+    .nav button img {
+
+        max-width: 100%;
+
+    }
+
+    .message {
+
+        font-size: 2.5rem;
+
+    }
+
+    .copyright, .conditions {
+
+        font-size: 1.5rem;
+
+    }
+
+    .social a {
+
+        width: 20%;
+    }
+
+    .social img {
+
+        max-width: 30%;
+
+    }
+
+    .signup {
+
+        /* mobile responsive */
+        width: 60%;
+
+    }
+
+    .seva-form {
+
+        width: 87.5%;
+
+    }
+
+    .mint {
+
+        width: 75%;
+ 
+    }
+
+    .mint, .formkit-input, .formkit-submit, .formkit-alert.formkit-alert-success {
+
+        font-size: 1.25rem;
+
+
+    }
+
 }
 
 
@@ -241,7 +479,7 @@ main {
     justify-content: space-evenly;
 
     /* sizing and spacing */
-    width: 100%;
+    width: 95%;
     height: fit-content;
     border-radius: 10px;
 
@@ -269,6 +507,7 @@ main {
 }
 .name {
 
+    /* flex layout */
     display: flex;
     justify-content: flex-start;
     align-items:center;
@@ -276,8 +515,10 @@ main {
 }
 
 .marque{
+
+    /* flex layout */
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 
     /* styling */
     font-family: futura-pt, sans-serif;
@@ -320,6 +561,7 @@ main {
     /* flex layout */
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 
     /* sizing and spacing */
@@ -338,6 +580,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    order: 3;
 
     /* positioning */
     position: relative;
@@ -360,7 +603,6 @@ main {
 
     /* styling */
     text-decoration: none;
-    width: 25%;
     height: auto;
 
 }
@@ -380,6 +622,184 @@ main {
 }
 
 .copyright {
+
+    /* flex layout */
+    order: 5;
+
+    /* styling */
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #C73E7C;
+
+}
+
+.message {
+
+    /* flex layout */
+    order: 1;
+
+    /* sizing and spacing */
+    margin: 1%;
+
+    /* styling */
+    color: #C73E7C; 
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+/* parent container */
+.signup {
+
+    /* flex layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    order: 2;
+
+    /* sizing and spacing */
+
+}
+
+/* form parent container */
+.seva-form {
+
+    /* sizing and spacing */
+    margin: auto;
+}
+
+/* form sub container */
+.seva-fields {
+
+    /* flex layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    /* sizing and spacing */
+    width: 100%;
+
+}
+
+/* input field container */
+.formkit-field {
+
+    /* flex layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* sizing and spacing */
+    height: 100%;
+    width: 70%;
+    margin: auto;
+
+}
+
+/* input field */
+.formkit-input {
+
+    /* sizing and spacing */
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+
+    /* styling */
+    border: #e7e7e7 solid 1px;
+    border-radius: 10px;
+    color: #C73E7C; 
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+/* input submit button */
+.formkit-submit {
+
+    /* sizing and spacing */
+    height:100%;
+    width: 30%;
+    margin: 0% 2%;
+    padding: 1%;
+    background-color: #C73E7C;
+    color: white;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.formkit-submit:hover {
+
+    opacity: 0.9;
+    transform: scale(0.9);
+
+}
+
+.formkit-alert.formkit-alert-success{
+
+    padding: 1%;
+
+    background-color: green;
+    color: greenyellow;
+    border: greenyellow solid 5px;
+    border-radius: 10px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+/* mint button */
+.mint {
+
+    /* sizing and spacing */
+    padding: 1%;
+    margin: 1%;
+    height: 100%;
+
+    /* styling */
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(240, 206, 65);
+    text-align: center;
+
+}
+
+.mint a {
+
+    margin:1%;
+    width: 100%;
+    
+    color: white;
+    text-decoration: none;
+
+}
+
+.mint:hover {
+
+    opacity: 0.9;
+    transform: scale(0.9);
+    
+}
+
+.conditions {
+
+    /* flex layout */
+    order: 4;
+
+    /* sizing and spacing */
+    margin: 1%;
 
     /* styling */
     font-family: futura-pt, sans-serif;
