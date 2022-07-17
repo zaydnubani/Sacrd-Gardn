@@ -32,7 +32,7 @@
 
     .social img {
 
-        max-width: 40%;
+        max-width: 37.5%;
 
     }  
 
@@ -44,13 +44,13 @@
 
     .seva-form {
 
-        width: 90%;
+        width: 65%;
 
     }
 
     .mint {
 
-        width: 80%;
+        width: 57.5%;
  
     }
 
@@ -109,13 +109,13 @@
 
     .seva-form {
 
-        width: 90%;
+        width: 70%;
 
     }
 
     .mint {
 
-        width: 80%;
+        width: 62.5%;
  
     }
 
@@ -151,7 +151,7 @@
 
     .copyright, .conditions {
 
-        font-size: 1.2rem;
+        font-size: 1.175rem;
 
     }
 
@@ -174,13 +174,13 @@
 
     .seva-form {
 
-        width: 100%;
+        width: 72.5%;
 
     }
 
     .mint {
 
-        width: 85%;
+        width: 65%;
  
     }
 
@@ -216,7 +216,7 @@
 
     .copyright, .conditions {
 
-        font-size: 1.25rem;
+        font-size: 1.175rem;
 
     }
 
@@ -227,7 +227,7 @@
 
     .social img {
 
-        max-width: 30%;
+        max-width: 25%;
 
     }
 
@@ -240,13 +240,13 @@
 
     .seva-form {
 
-        width: 95%;
+        width: 70%;
 
     }
 
     .mint {
 
-        width: 80%;
+        width: 62.5%;
  
     }
 
@@ -282,7 +282,7 @@
 
     .copyright, .conditions {
 
-        font-size: 1.2rem;
+        font-size: 1.1rem;
 
     }
 
@@ -293,7 +293,7 @@
 
     .social img {
 
-        max-width: 27.5%;
+        max-width: 25%;
 
     }
 
@@ -306,13 +306,13 @@
 
     .seva-form {
 
-        width: 95%;
+        width: 75%;
 
     }
 
     .mint {
 
-        width: 80%;
+        width: 65%;
  
     }
 
@@ -348,7 +348,7 @@
 
     .copyright, .conditions {
 
-        font-size: 1.35rem;
+        font-size: 1.2rem;
 
     }
 
@@ -359,7 +359,7 @@
 
     .social img {
 
-        max-width: 30%;
+        max-width: 25%;
 
     }
 
@@ -372,13 +372,13 @@
 
     .seva-form {
 
-        width: 92.5%;
+        width: 70%;
 
     }
 
     .mint {
 
-        width: 77.5%;
+        width: 60%;
  
     }
 
@@ -414,7 +414,7 @@
 
     .copyright, .conditions {
 
-        font-size: 1.5rem;
+        font-size: 1.35rem;
 
     }
 
@@ -425,7 +425,7 @@
 
     .social img {
 
-        max-width: 30%;
+        max-width: 25%;
 
     }
 
@@ -438,13 +438,13 @@
 
     .seva-form {
 
-        width: 87.5%;
+        width: 65%;
 
     }
 
     .mint {
 
-        width: 75%;
+        width: 57.5%;
  
     }
 
@@ -695,7 +695,7 @@ main {
 
     /* sizing and spacing */
     height: 100%;
-    width: 70%;
+    width: 75%;
     margin: auto;
 
 }
@@ -723,10 +723,10 @@ main {
 
     /* sizing and spacing */
     height:100%;
-    width: 30%;
+    width: 25%;
     margin: 0% 2%;
     padding: 1%;
-    background-color: #C73E7C;
+    background-color: rgb(0, 164, 0);
     color: white;
     font-family: futura-pt, sans-serif;
     font-weight: 700;
@@ -771,7 +771,7 @@ main {
     font-style: italic;
     border: none;
     border-radius: 10px;
-    background-color: rgb(240, 206, 65);
+    background-color: rgb(238, 202, 55);
     text-align: center;
 
 }
