@@ -1,7 +1,15 @@
+/* xx-small devices (landscape phones, 250px and up) */
+@media screen and (min-width: 250px) {
+    .offcanvas {
+        width: 100%;
+    }
+}
+
 /* Smaller devices  */
 @media screen and (min-height: 350px) {  
+
     .offcanvas img {
-        max-width: 32.5%;
+        max-width: 37.5%;
    }
 
    .navclose {
@@ -17,10 +25,18 @@
    }
 }
 
+/* x-small devices (landscape phones, 360px and up) */
+@media screen and (min-width: 360px) {
+    .offcanvas {
+        width: 75%;
+    }
+}
+
 /* Medium Devices */
 @media screen and (min-height: 450px) {  
+
     .offcanvas img {
-        max-width: 40%;
+        max-width: 45%;
    }
 
    .navclose {
@@ -28,11 +44,20 @@
    }
 
    .link {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
    }
    .navIcons img {
         width: 12.5%;
    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+    @media screen and (min-width: 576px) {
+
+    .offcanvas {
+        width: 50%;
+    }
 
 }
 
@@ -47,7 +72,7 @@
    }
 
    .link {
-        font-size: 2.2rem;
+        font-size: 1.75rem;
    }
 
    .navIcons img {
@@ -56,10 +81,19 @@
 
 }
 
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) { 
+
+    .offcanvas {
+        width: 30%;
+    }
+
+}
+
 /* x-large devices */
 @media screen and (min-height: 850px) {  
     .offcanvas img {
-        max-width: 70%;
+        max-width: 65%;
    }
 
    .navclose {
@@ -67,11 +101,47 @@
    }
 
    .link {
-        font-size: 3.1rem;
+        font-size: 2.5rem;
    }
    .navIcons img {
         width: 14%;
    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) { 
+
+    .offcanvas {
+        width: 30%;
+    }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    .offcanvas {
+        width: 25%;
+    }
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) { 
+
+    .offcanvas {
+        width: 20%;
+    }
+
+}
+
+/* XXX-Large devices (larger desktops, 1800px and up) */
+@media screen and (min-width: 1800px) {
+
+    .offcanvas {
+        width: 17.5%;
+    }
 
 }
 
@@ -93,8 +163,7 @@
     /* spacing and sizing */
     padding: 1%;
     height: 100%;
-    width: 350px;
-    right: -400px;
+    right: -105%;
    
     /* styling */
     background-image: url('/images/backgrounds/body/B24.png');

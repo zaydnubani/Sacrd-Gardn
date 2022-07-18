@@ -1,27 +1,33 @@
-/* Small devices (landscape phones, 360px and up) */
-@media screen and (min-width: 360px) {
+/* x-small devices (landscape phones, 250px and up) */
+@media screen and (min-width: 250px) {
+
+    .header, .footer {
+
+        padding: 10% 0;
+
+    }
     
     .name img   {
 
-        max-width: 90%;
+        max-width: 100%;
         
     }
 
     .nav button img {
 
-        max-width: 90%;
+        max-width: 110%;
 
     }
 
     .message {
 
-        font-size: 0.75rem;
+        font-size: 3.75vw;
 
     }
 
     .copyright, .conditions {
 
-        font-size: 0.5rem;
+        font-size: 2.5vw;
 
     }
 
@@ -56,7 +62,78 @@
 
     .mint, .formkit-input, .formkit-submit, .formkit-alert.formkit-alert-success {
 
-        font-size: 0.6rem;
+        font-size: 2.5vw;
+
+
+    }
+
+} 
+
+/* Small devices (landscape phones, 360px and up) */
+@media screen and (min-width: 360px) {
+
+    .header, .footer {
+
+        padding: 10% 0;
+
+    }
+    
+    .name img   {
+
+        max-width: 90%;
+        
+    }
+
+    .nav button img {
+
+        max-width: 90%;
+
+    }
+
+    .message {
+
+        font-size: 3.75vw;
+
+    }
+
+    .copyright, .conditions {
+
+        font-size: 2.75vw;
+
+    }
+
+    .social a {
+
+        width: 25%;
+    }
+
+    .social img {
+
+        max-width: 37.5%;
+
+    }  
+
+    .signup {
+
+        width: 100%;
+
+    }
+
+    .seva-form {
+
+        width: 65%;
+
+    }
+
+    .mint {
+
+        width: 57.5%;
+ 
+    }
+
+    .mint, .formkit-input, .formkit-submit, .formkit-alert.formkit-alert-success {
+
+        font-size: 2.25vw;
 
 
     }
@@ -65,6 +142,13 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
+
+    .header, .footer {
+
+        padding: 7.5% 0;
+
+    }
+
     
     .name img   {
 
@@ -80,13 +164,13 @@
 
     .message {
 
-        font-size: 1.2rem;
+        font-size: 4vw;
 
     }
 
     .copyright, .conditions {
 
-        font-size: 1rem;
+        font-size: 2.5vw;
 
     }
 
@@ -121,7 +205,7 @@
 
     .mint, .formkit-input, .formkit-submit, .formkit-alert.formkit-alert-success {
 
-        font-size: 0.75rem;
+        font-size: 2vw;
 
 
     }
@@ -130,6 +214,12 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) { 
+
+    .header, .footer {
+
+        padding: 7.5% 0;
+
+    }
     
     .name img   {
 
@@ -145,13 +235,13 @@
 
     .message {
 
-        font-size: 1.65rem;
+        font-size: 3.5vw;
 
     }
 
     .copyright, .conditions {
 
-        font-size: 1.175rem;
+        font-size: 2.25vw;
 
     }
 
@@ -186,7 +276,7 @@
 
     .mint, .formkit-input, .formkit-submit, .formkit-alert.formkit-alert-success {
 
-        font-size: 1rem;
+        font-size: 1.75vw;
 
 
     }
@@ -196,6 +286,12 @@
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) { 
     
+    .header, .footer {
+
+        padding: 5% 0;
+
+    }
+
     .name img   {
 
         max-width: 70%;
@@ -210,13 +306,13 @@
 
     .message {
 
-        font-size: 1.75rem;
+        font-size: 3vw;
 
     }
 
     .copyright, .conditions {
 
-        font-size: 1.175rem;
+        font-size: 2vw;
 
     }
 
@@ -252,7 +348,7 @@
 
     .mint, .formkit-input, .formkit-submit, .formkit-alert.formkit-alert-success {
 
-        font-size: 1rem;
+        font-size: 2vw;
 
 
     }
@@ -261,7 +357,13 @@
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
-   
+    
+    .header, .footer {
+
+        padding: 5% 0;
+
+    }
+
     .name img   {
 
         max-width: 82.5%;
@@ -276,13 +378,13 @@
 
     .message {
 
-        font-size: 1.75rem;
+        font-size: 2.5vw;
 
     }
 
     .copyright, .conditions {
 
-        font-size: 1.1rem;
+        font-size: 1.5vw;
 
     }
 
@@ -318,7 +420,7 @@
 
     .mint, .formkit-input, .formkit-submit, .formkit-alert.formkit-alert-success {
 
-        font-size: 1rem;
+        font-size: 1.25vw;
 
 
     }
@@ -328,6 +430,12 @@
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) { 
    
+    .header, .footer {
+
+        padding: 2.5% 0;
+
+    }
+
     .name img   {
 
         max-width: 95%;
@@ -342,13 +450,13 @@
 
     .message {
 
-        font-size: 2rem;
+        font-size: 2.5vw;
 
     }
 
     .copyright, .conditions {
 
-        font-size: 1.2rem;
+        font-size: 1.5vw;
 
     }
 
@@ -384,7 +492,7 @@
 
     .mint, .formkit-input, .formkit-submit, .formkit-alert.formkit-alert-success {
 
-        font-size: 1.1rem;
+        font-size: 1.25vw;
 
 
     }
@@ -394,6 +502,12 @@
 /* XXX-Large devices (larger desktops, 1800px and up) */
 @media screen and (min-width: 1800px) { 
    
+    .header, .footer {
+
+        padding: 2.5% 0;
+
+    }
+
     .name img   {
 
         max-width: 95%;
@@ -408,13 +522,13 @@
 
     .message {
 
-        font-size: 2.5rem;
+        font-size: 2.15vw;
 
     }
 
     .copyright, .conditions {
 
-        font-size: 1.35rem;
+        font-size: 1.25vw;
 
     }
 
@@ -450,7 +564,7 @@
 
     .mint, .formkit-input, .formkit-submit, .formkit-alert.formkit-alert-success {
 
-        font-size: 1.25rem;
+        font-size: 1.1vw;
 
 
     }
@@ -505,6 +619,7 @@ main {
     align-items: center;
 
 }
+
 .name {
 
     /* flex layout */
@@ -561,12 +676,11 @@ main {
     /* flex layout */
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 
     /* sizing and spacing */
     width: 90%;
-    padding: 1%;
 
     /* styling */
     text-align: center;

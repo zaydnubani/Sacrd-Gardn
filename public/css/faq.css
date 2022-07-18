@@ -1,3 +1,16 @@
+/* x-small devices (landscape phones, 250px and up) */
+@media screen and (min-width: 250px) {
+
+    .question span, .expand, .contract{
+        font-size: 0.75rem;
+    }
+
+    .answer p{
+        font-size: 0.54rem;
+
+    }
+} 
+
 /* Small devices (landscape phones, 360px and up) */
 @media screen and (min-width: 360px) {
 
@@ -117,7 +130,7 @@
     justify-content: space-between;
 
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
 }

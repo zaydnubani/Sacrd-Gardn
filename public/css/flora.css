@@ -1,3 +1,31 @@
+/* x-small devices (landscape phones, 250px and up) */
+@media screen and (min-width: 250px) {
+    .nft {
+        width: 45%;
+    }
+    .nft img {
+        /* sizing and spacing */
+        max-width: 92.5%;
+    }
+    .popup {
+        width: 220px;
+        padding: 3%;
+    }
+    .popclose{
+        font-size: 0.85rem;
+    }
+    .notice{
+        font-size: 1.2rem;
+    }
+    .nft.membership span {
+        font-size: 0.6rem;
+    }
+    .nft.membership div div{
+        font-size: 0.5rem;
+    }
+ 
+} 
+
 /* Small devices (landscape phones, 360px and up) */
 @media screen and (min-width: 360px) {
     .nft {
@@ -236,7 +264,7 @@
     align-items: center;
 
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: 2s;
     /* background-color: aliceblue; */
     
@@ -293,10 +321,6 @@
     /* sizing and spacing */
     height: auto;
 
-    /* styling */
-    background-position: bottom;
-    border-radius: 10px;
-
 }
 
 .nft.membership div{
@@ -328,7 +352,7 @@
     font-family: futura-pt, sans-serif;
     font-weight: 700;
     font-style: italic;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
 
 }

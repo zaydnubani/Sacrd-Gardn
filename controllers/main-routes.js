@@ -25,4 +25,12 @@ router.get('/terms', (req, res) => {
     res.render('terms');
 });
 
+router.get('/partners', (req, res) => {
+    res.render('partners');
+});
+
+router.get('/simulator', (req, res) => {
+    res.render('simulator');
+});
+
 module.exports = router;
