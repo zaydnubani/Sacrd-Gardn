@@ -782,7 +782,7 @@ main {
 .seva-form {
 
     /* sizing and spacing */
-    margin: auto;
+    margin: 1.5%;
 }
 
 /* form sub container */
@@ -796,6 +796,7 @@ main {
 
     /* sizing and spacing */
     width: 100%;
+    
 
 }
 
